@@ -30,8 +30,8 @@ This is the latest Czech OpenERP localisation necessary to run OpenERP accountin
     - VAT tax structure with VATs for years 2010, 2011, 2012, 2013 and 2014
     - a few other adaptations""",
     'author': 'PERLUR Group',
-    'price': 100,
-    'currency': EUR,
+    'price': '100',
+    'currency': 'EUR',
     'website': 'https://go.perlur.cloud/odoo-l10n-cs',
     'depends': ['base_iban', 'base_vat', 'account_chart','l10n_multilang'],
     'data': [
