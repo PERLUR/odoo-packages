@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    Copyright (C) 2012 - 2014 STOPKA Consulting s.r.o. (<http://openerp.perlur.cz>).
+#    Copyright (C) 2012 - 2017 PERLUR Group (<https://go.perlur.cloud/odoo-l10n-cs>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -29,8 +29,10 @@ This is the latest Czech OpenERP localisation necessary to run OpenERP accountin
     - a Chart Of Accounts for Czech Republic
     - VAT tax structure with VATs for years 2010, 2011, 2012, 2013 and 2014
     - a few other adaptations""",
-    'author': 'STOPKA Consulting s.r.o.',
-    'website': 'http://openerp.perlur.cz/',
+    'author': 'PERLUR Group',
+    'price': 100,
+    'currency': EUR,
+    'website': 'https://go.perlur.cloud/odoo-l10n-cs',
     'depends': ['base_iban', 'base_vat', 'account_chart','l10n_multilang'],
     'data': [
         'partner_view.xml',
