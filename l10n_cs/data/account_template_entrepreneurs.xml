@@ -1,0 +1,2283 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openerp>
+  <data noupdate="1">
+    <record model="account.account.template" id="account_template_entrepreneurs_root">
+      <field name="code">root</field>
+      <field name="name">Root account</field>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="0">
+      <field name="code">0</field>
+      <field name="name">Long-lived assets</field>
+      <field ref="account_template_entrepreneurs_root" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="01">
+      <field name="code">01</field>
+      <field name="name">Long-lived intangible assets</field>
+      <field ref="0" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="010">
+      <field name="code">010</field>
+      <field name="name">Long-lived intangible assets</field>
+      <field ref="01" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="011">
+      <field name="code">011</field>
+      <field name="name">Start-up costs</field>
+      <field ref="01" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="012">
+      <field name="code">012</field>
+      <field name="name">Research and development capitalized</field>
+      <field ref="01" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="013">
+      <field name="code">013</field>
+      <field name="name">Software</field>
+      <field ref="01" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="014">
+      <field name="code">014</field>
+      <field name="name">Goodwill</field>
+      <field ref="01" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="019">
+      <field name="code">019</field>
+      <field name="name">Other intangible fixed assets</field>
+      <field ref="01" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="02">
+      <field name="code">02</field>
+      <field name="name">Long-lived tangible assets depreciated</field>
+      <field ref="0" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="021">
+      <field name="code">021</field>
+      <field name="name">Buildings</field>
+      <field ref="02" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="022">
+      <field name="code">022</field>
+      <field name="name">Independently movable things and groups of movable things</field>
+      <field ref="02" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="025">
+      <field name="code">025</field>
+      <field name="name">Orchards and vineyards</field>
+      <field ref="02" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="026">
+      <field name="code">026</field>
+      <field name="name">Livestock</field>
+      <field ref="02" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="029">
+      <field name="code">029</field>
+      <field name="name">Other tangible long-lived assets</field>
+      <field ref="02" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="03">
+      <field name="code">03</field>
+      <field name="name">Long-lived tangible assets non-depreciated</field>
+      <field ref="0" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="031">
+      <field name="code">031</field>
+      <field name="name">Land</field>
+      <field ref="03" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="032">
+      <field name="code">032</field>
+      <field name="name">Works of art and collections</field>
+      <field ref="03" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="04">
+      <field name="code">04</field>
+      <field name="name">Intangible and tangible long-lived assets in progress and acquisition of Long-term financial assets</field>
+      <field ref="0" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="041">
+      <field name="code">041</field>
+      <field name="name">Acquisition of intangible assets</field>
+      <field ref="04" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="042">
+      <field name="code">042</field>
+      <field name="name">Acquisition of tangible long-lived assets</field>
+      <field ref="04" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="043">
+      <field name="code">043</field>
+      <field name="name">Acquisition of financial assets</field>
+      <field ref="04" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="05">
+      <field name="code">05</field>
+      <field name="name">Advance payments for long-lived assets</field>
+      <field ref="0" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="051">
+      <field name="code">051</field>
+      <field name="name">Advance payments for long-lived intangible assets</field>
+      <field ref="05" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="052">
+      <field name="code">052</field>
+      <field name="name">Advance payments for long-lived tangible assets</field>
+      <field ref="05" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="053">
+      <field name="code">053</field>
+      <field name="name">Advance payments for long-lived financial assets</field>
+      <field ref="05" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="06">
+      <field name="code">06</field>
+      <field name="name">Long-term financial assets</field>
+      <field ref="0" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="061">
+      <field name="code">061</field>
+      <field name="name">Financial assets and shares in subsidiaries</field>
+      <field ref="06" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="062">
+      <field name="code">062</field>
+      <field name="name">Financial assets and shares in associates</field>
+      <field ref="06" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="063">
+      <field name="code">063</field>
+      <field name="name">Other financial assets and shares</field>
+      <field ref="06" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="065">
+      <field name="code">065</field>
+      <field name="name">Debt securities held to maturity</field>
+      <field ref="06" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="066">
+      <field name="code">066</field>
+      <field name="name">Loans and credit - managing and controlling persons, significant influence</field>
+      <field ref="06" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="067">
+      <field name="code">067</field>
+      <field name="name">Other loans</field>
+      <field ref="06" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="069">
+      <field name="code">069</field>
+      <field name="name">Other long-term financial assets</field>
+      <field ref="06" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="07">
+      <field name="code">07</field>
+      <field name="name">Accumulated amortization on long-lived intangibles</field>
+      <field ref="0" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="071">
+      <field name="code">071</field>
+      <field name="name">Accumulated amortization of start-up costs</field>
+      <field ref="07" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="072">
+      <field name="code">072</field>
+      <field name="name">Accumulated amortization of intangible research and development results</field>
+      <field ref="07" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="073">
+      <field name="code">073</field>
+      <field name="name">Accumulated amortization of software</field>
+      <field ref="07" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="074">
+      <field name="code">074</field>
+      <field name="name"> Accumulated amortization of valuable rights</field>
+      <field ref="07" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="075">
+      <field name="code">075</field>
+      <field name="name">Accumulated amortization of goodwill</field>
+      <field ref="07" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="079">
+      <field name="code">079</field>
+      <field name="name">Accumulated amortization of other intangible assets</field>
+      <field ref="07" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="08">
+      <field name="code">08</field>
+      <field name="name">Accumulated depreciation on long-lived tangibles</field>
+      <field ref="0" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="081">
+      <field name="code">081</field>
+      <field name="name">Accumulated depreciation of buildings</field>
+      <field ref="08" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="082">
+      <field name="code">082</field>
+      <field name="name">Accumulated depreciation of independently movable assets and groups of movable assets</field>
+      <field ref="08" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="085">
+      <field name="code">085</field>
+      <field name="name">Accumulated depreciation of orchards and vineyards</field>
+      <field ref="08" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="086">
+      <field name="code">086</field>
+      <field name="name">Accumulated depreciation of livestock</field>
+      <field ref="08" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="089">
+      <field name="code">089</field>
+      <field name="name">Accumulated depreciation of other tangible assets</field>
+      <field ref="08" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="09">
+      <field name="code">09</field>
+      <field name="name">Allowances on long-lived assets</field>
+      <field ref="0" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="091">
+      <field name="code">091</field>
+      <field name="name">Allowance on intangible assets</field>
+      <field ref="09" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="092">
+      <field name="code">092</field>
+      <field name="name">Allowance on tangible long-lived assets</field>
+      <field ref="09" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="093">
+      <field name="code">093</field>
+      <field name="name">Allowance on long-term incomplete intangible assets</field>
+      <field ref="09" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="094">
+      <field name="code">094</field>
+      <field name="name">Allowance on long-term incomplete tangible long-lived assets</field>
+      <field ref="09" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="095">
+      <field name="code">095</field>
+      <field name="name">Allowance on advance payments given on long-lived assets</field>
+      <field ref="09" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="096">
+      <field name="code">096</field>
+      <field name="name">Allowance on long-term financial assets</field>
+      <field ref="09" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="097">
+      <field name="code">097</field>
+      <field name="name">Revaluation of acquired assets</field>
+      <field ref="09" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="098">
+      <field name="code">098</field>
+      <field name="name">Allowance on revaluation of acquired assets</field>
+      <field ref="09" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="1">
+      <field name="code">1</field>
+      <field name="name">Inventory</field>
+      <field ref="account_template_entrepreneurs_root" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="11">
+      <field name="code">11</field>
+      <field name="name">Material</field>
+      <field ref="1" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="111">
+      <field name="code">111</field>
+      <field name="name">Cost of material</field>
+      <field ref="11" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="112">
+      <field name="code">112</field>
+      <field name="name">Materials in inventory</field>
+      <field ref="11" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="119">
+      <field name="code">119</field>
+      <field name="name">Material in transit</field>
+      <field ref="11" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="12">
+      <field name="code">12</field>
+      <field name="name">Self manufactured inventories</field>
+      <field ref="1" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="121">
+      <field name="code">121</field>
+      <field name="name">Work in process</field>
+      <field ref="12" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="122">
+      <field name="code">122</field>
+      <field name="name">Semi-finished goods</field>
+      <field ref="12" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="123">
+      <field name="code">123</field>
+      <field name="name">Products</field>
+      <field ref="12" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="124">
+      <field name="code">124</field>
+      <field name="name">Animals</field>
+      <field ref="12" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="13">
+      <field name="code">13</field>
+      <field name="name">Merchandise</field>
+      <field ref="1" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="131">
+      <field name="code">131</field>
+      <field name="name">Cost of merchandise</field>
+      <field ref="13" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="132">
+      <field name="code">132</field>
+      <field name="name">Merchandise in warehouse and stores</field>
+      <field ref="13" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="139">
+      <field name="code">139</field>
+      <field name="name">Merchandise in transit</field>
+      <field ref="13" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="15">
+      <field name="code">15</field>
+      <field name="name">Advance payments on inventory</field>
+      <field ref="1" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="151">
+      <field name="code">151</field>
+      <field name="name">Advance payments on material</field>
+      <field ref="15" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="152">
+      <field name="code">152</field>
+      <field name="name">Advance payments on animals</field>
+      <field ref="15" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="153">
+      <field name="code">153</field>
+      <field name="name">Advance payments for merchandise</field>
+      <field ref="15" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="19">
+      <field name="code">19</field>
+      <field name="name">Allowances on inventory</field>
+      <field ref="1" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="191">
+      <field name="code">191</field>
+      <field name="name">Allowances on material</field>
+      <field ref="19" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="192">
+      <field name="code">192</field>
+      <field name="name">Allowances on work in process</field>
+      <field ref="19" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="193">
+      <field name="code">193</field>
+      <field name="name">Allowances on semi-finished goods</field>
+      <field ref="19" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="194">
+      <field name="code">194</field>
+      <field name="name">Allowances on products</field>
+      <field ref="19" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="195">
+      <field name="code">195</field>
+      <field name="name">Allowances on animals</field>
+      <field ref="19" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="196">
+      <field name="code">196</field>
+      <field name="name">Allowances on merchandise</field>
+      <field ref="19" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="197">
+      <field name="code">197</field>
+      <field name="name">Allowances on advance payments on material</field>
+      <field ref="19" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="198">
+      <field name="code">198</field>
+      <field name="name">Allowances on advance payments on merchandise</field>
+      <field ref="19" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="199">
+      <field name="code">199</field>
+      <field name="name"> Allowances on advance payments on animals</field>
+      <field ref="19" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="2">
+      <field name="code">2</field>
+      <field name="name">Cash, cash equivalents and short-term bank loans</field>
+      <field ref="account_template_entrepreneurs_root" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="21">
+      <field name="code">21</field>
+      <field name="name">Cash</field>
+      <field ref="2" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="211">
+      <field name="code">211</field>
+      <field name="name">Petty cash</field>
+      <field ref="21" name="parent_id"/>
+      <field name="type">liquidity</field>
+      <field ref="account.data_account_type_cash" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="213">
+      <field name="code">213</field>
+      <field name="name">Liquid valuables</field>
+      <field ref="21" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="22">
+      <field name="code">22</field>
+      <field name="name">Accounts in banks</field>
+      <field ref="2" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="221">
+      <field name="code">221</field>
+      <field name="name">Bank accounts</field>
+      <field ref="22" name="parent_id"/>
+      <field name="type">liquidity</field>
+      <field ref="account.data_account_type_bank" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="23">
+      <field name="code">23</field>
+      <field name="name">Short-term bank loans</field>
+      <field ref="2" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="231">
+      <field name="code">231</field>
+      <field name="name">Short-term bank loans</field>
+      <field ref="23" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="232">
+      <field name="code">232</field>
+      <field name="name">Discounted loans</field>
+      <field ref="23" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="24">
+      <field name="code">24</field>
+      <field name="name">Short-term financial assistance</field>
+      <field ref="2" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="241">
+      <field name="code">241</field>
+      <field name="name">Issued short-term bonds</field>
+      <field ref="24" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="249">
+      <field name="code">249</field>
+      <field name="name">Other short-term financial assistance</field>
+      <field ref="24" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="25">
+      <field name="code">25</field>
+      <field name="name">Short-term securities and shares, and short-term financial assets in progress</field>
+      <field ref="2" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="251">
+      <field name="code">251</field>
+      <field name="name">Registered equity securities held for trading</field>
+      <field ref="25" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="252">
+      <field name="code">252</field>
+      <field name="name">Own shares and equity interests</field>
+      <field ref="25" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="253">
+      <field name="code">253</field>
+      <field name="name">Registered debt securities held for trading</field>
+      <field ref="25" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="255">
+      <field name="code">255</field>
+      <field name="name">Own bonds</field>
+      <field ref="25" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="256">
+      <field name="code">256</field>
+      <field name="name">Short-term debt securities held to maturity</field>
+      <field ref="25" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="257">
+      <field name="code">257</field>
+      <field name="name">Other securities</field>
+      <field ref="25" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="259">
+      <field name="code">259</field>
+      <field name="name">Acquisition of short-term financial assets</field>
+      <field ref="25" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="26">
+      <field name="code">26</field>
+      <field name="name">Transfers between financial accounts</field>
+      <field ref="2" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="261">
+      <field name="code">261</field>
+      <field name="name">Cash in transit</field>
+      <field ref="26" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="29">
+      <field name="code">29</field>
+      <field name="name">Allowances on short-term financial assets</field>
+      <field ref="2" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="291">
+      <field name="code">291</field>
+      <field name="name">Allowance for short-term financial assets</field>
+      <field ref="29" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="3">
+      <field name="code">3</field>
+      <field name="name">Clearing relationships</field>
+      <field ref="account_template_entrepreneurs_root" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="31">
+      <field name="code">31</field>
+      <field name="name">Receivables (short and long-term)</field>
+      <field ref="3" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="311">
+      <field name="code">311</field>
+      <field name="name">Accounts receivable</field>
+      <field ref="31" name="parent_id"/>
+      <field name="type">receivable</field>
+      <field eval="True" name="reconcile"/>
+      <field ref="account.data_account_type_receivable" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="312">
+      <field name="code">312</field>
+      <field name="name">Notes receivable</field>
+      <field ref="31" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_receivable" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="313">
+      <field name="code">313</field>
+      <field name="name">Receivables on discounted securities</field>
+      <field ref="31" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_receivable" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="314">
+      <field name="code">314</field>
+      <field name="name">Advance payments given - sort-term and long-term</field>
+      <field ref="31" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_receivable" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="315">
+      <field name="code">315</field>
+      <field name="name">Other receivables</field>
+      <field ref="31" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_receivable" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="32">
+      <field name="code">32</field>
+      <field name="name">Short-term liabilities</field>
+      <field ref="3" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="321">
+      <field name="code">321</field>
+      <field name="name">Accounts payable</field>
+      <field ref="32" name="parent_id"/>
+      <field name="type">payable</field>
+      <field eval="True" name="reconcile"/>
+      <field ref="account.data_account_type_payable" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="322">
+      <field name="code">322</field>
+      <field name="name">Notes payable</field>
+      <field ref="32" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_payable" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="324">
+      <field name="code">324</field>
+      <field name="name">Advance payments received</field>
+      <field ref="32" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_payable" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="325">
+      <field name="code">325</field>
+      <field name="name">Other liabilities</field>
+      <field ref="32" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_payable" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="33">
+      <field name="code">33</field>
+      <field name="name">Clearing account with employees and institutions</field>
+      <field ref="3" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="331">
+      <field name="code">331</field>
+      <field name="name">Employees</field>
+      <field ref="33" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="333">
+      <field name="code">333</field>
+      <field name="name">Other liabilities to employees</field>
+      <field ref="33" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="335">
+      <field name="code">335</field>
+      <field name="name">Receivables from employees</field>
+      <field ref="33" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="336">
+      <field name="code">336</field>
+      <field name="name">Clearing with social security and health insurance</field>
+      <field ref="33" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="34">
+      <field name="code">34</field>
+      <field name="name">Clearing of taxes and subsidies</field>
+      <field ref="3" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="341">
+      <field name="code">341</field>
+      <field name="name">Income tax</field>
+      <field ref="34" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="342">
+      <field name="code">342</field>
+      <field name="name">Other direct taxes</field>
+      <field ref="34" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="343">
+      <field name="code">343</field>
+      <field name="name">Value added tax</field>
+      <field ref="34" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="345">
+      <field name="code">345</field>
+      <field name="name">Other taxes and fees</field>
+      <field ref="34" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="346">
+      <field name="code">346</field>
+      <field name="name">Subsidies from government budget</field>
+      <field ref="34" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="347">
+      <field name="code">347</field>
+      <field name="name">Other subsidies</field>
+      <field ref="34" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="35">
+      <field name="code">35</field>
+      <field name="name">Receivables from partners, group entities and cooperative members</field>
+      <field ref="3" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="351">
+      <field name="code">351</field>
+      <field name="name">Receivables - controlling and managing person</field>
+      <field ref="35" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="352">
+      <field name="code">352</field>
+      <field name="name">Receivables - significant influence</field>
+      <field ref="35" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="353">
+      <field name="code">353</field>
+      <field name="name">Subscribed legal capital receivable</field>
+      <field ref="35" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="354">
+      <field name="code">354</field>
+      <field name="name">Receivable for equity holder related to payment of loss</field>
+      <field ref="35" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="355">
+      <field name="code">355</field>
+      <field name="name">Other receivables from equity holders and cooperative members</field>
+      <field ref="35" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="358">
+      <field name="code">358</field>
+      <field name="name">Receivables from group companies</field>
+      <field ref="35" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="36">
+      <field name="code">36</field>
+      <field name="name">Payables to partners, group entities and cooperative members</field>
+      <field ref="3" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="361">
+      <field name="code">361</field>
+      <field name="name">Liabilities - controlling and managing person</field>
+      <field ref="36" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="362">
+      <field name="code">362</field>
+      <field name="name">Liabilities - significant influence</field>
+      <field ref="36" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="364">
+      <field name="code">364</field>
+      <field name="name">Payables to equity holders in profit distribution</field>
+      <field ref="36" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="365">
+      <field name="code">365</field>
+      <field name="name">Other payables to partners and cooperative members</field>
+      <field ref="36" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="366">
+      <field name="code">366</field>
+      <field name="name">Payables to equity holders and members of cooperatives from employment</field>
+      <field ref="36" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="367">
+      <field name="code">367</field>
+      <field name="name">Payables from underwritten unpaid securities and deposits</field>
+      <field ref="36" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="368">
+      <field name="code">368</field>
+      <field name="name">Payable to group companies</field>
+      <field ref="36" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="37">
+      <field name="code">37</field>
+      <field name="name">Other receivables and payables</field>
+      <field ref="3" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="371">
+      <field name="code">371</field>
+      <field name="name">Receivable from sale of business</field>
+      <field ref="37" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="372">
+      <field name="code">372</field>
+      <field name="name">Liability from purchase of business</field>
+      <field ref="37" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="373">
+      <field name="code">373</field>
+      <field name="name"> Receivables and payables from long-lived-term operations</field>
+      <field ref="37" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="374">
+      <field name="code">374</field>
+      <field name="name">Rent receivable</field>
+      <field ref="37" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="375">
+      <field name="code">375</field>
+      <field name="name">Receivables on bonds issued</field>
+      <field ref="37" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="376">
+      <field name="code">376</field>
+      <field name="name">Purchased options</field>
+      <field ref="37" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="377">
+      <field name="code">377</field>
+      <field name="name">Sold options</field>
+      <field ref="37" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="378">
+      <field name="code">378</field>
+      <field name="name">Other receivables</field>
+      <field ref="37" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="379">
+      <field name="code">379</field>
+      <field name="name">Other payables</field>
+      <field ref="37" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="38">
+      <field name="code">38</field>
+      <field name="name">Transitory active and passive accounts</field>
+      <field ref="3" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="381">
+      <field name="code">381</field>
+      <field name="name">Prepaid expenses</field>
+      <field ref="38" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="382">
+      <field name="code">382</field>
+      <field name="name">Complex prepaid expenses</field>
+      <field ref="38" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="383">
+      <field name="code">383</field>
+      <field name="name">Accrued expenses</field>
+      <field ref="38" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="384">
+      <field name="code">384</field>
+      <field name="name">Unearned and deferred revenue</field>
+      <field ref="38" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="385">
+      <field name="code">385</field>
+      <field name="name">Accrued revenue</field>
+      <field ref="38" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+<!-- removed as of 31.12.2001
+    <record model="account.account.template" id="386">
+      <field name="code">386</field>
+      <field name="name">Kursové rozdíly aktivní</field>
+      <field ref="38" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="387">
+      <field name="code">387</field>
+      <field name="name">Kursové rozdíly pasivní</field>
+      <field ref="38" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+-->
+    <record model="account.account.template" id="388">
+      <field name="code">388</field>
+      <field name="name">Estimated active amounts</field>
+      <field ref="38" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="389">
+      <field name="code">389</field>
+      <field name="name">Estimated passive amounts</field>
+      <field ref="38" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="39">
+      <field name="code">39</field>
+      <field name="name">Allowances to clearing relationships and internal netting</field>
+      <field ref="3" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="391">
+      <field name="code">391</field>
+      <field name="name">Allowance to receivables</field>
+      <field ref="39" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="395">
+      <field name="code">395</field>
+      <field name="name">Internal netting</field>
+      <field ref="39" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="398">
+      <field name="code">398</field>
+      <field name="name">Connecting account for partnering</field>
+      <field ref="39" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="4">
+      <field name="code">4</field>
+      <field name="name">Equity and long-term liabilities</field>
+      <field ref="account_template_entrepreneurs_root" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="41">
+      <field name="code">41</field>
+      <field name="name">Legal (statutory) capital and capital reserves</field>
+      <field ref="4" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="411">
+      <field name="code">411</field>
+      <field name="name">Legal (statutory) capital</field>
+      <field ref="41" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_equity" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="412">
+      <field name="code">412</field>
+      <field name="name">Share premium</field>
+      <field ref="41" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="413">
+      <field name="code">413</field>
+      <field name="name"> Other capital reserves</field>
+      <field ref="41" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="414">
+      <field name="code">414</field>
+      <field name="name">Asset and liability revaluation differences</field>
+      <field ref="41" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="417">
+      <field name="code">417</field>
+      <field name="name">Differences from company transformations</field>
+      <field ref="41" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="418">
+      <field name="code">418</field>
+      <field name="name">Revaluation differences from company transformations</field>
+      <field ref="41" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="419">
+      <field name="code">419</field>
+      <field name="name">Changes in legal capital</field>
+      <field ref="41" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="42">
+      <field name="code">42</field>
+      <field name="name">Reserves, indivisible reserves, other reserves and transfer of net income</field>
+      <field ref="4" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="421">
+      <field name="code">421</field>
+      <field name="name">Legal reserve</field>
+      <field ref="42" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="422">
+      <field name="code">422</field>
+      <field name="name">Non-distributable reserve</field>
+      <field ref="42" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="423">
+      <field name="code">423</field>
+      <field name="name">Statutory reserves</field>
+      <field ref="42" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="427">
+      <field name="code">427</field>
+      <field name="name">Other reserves</field>
+      <field ref="42" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="428">
+      <field name="code">428</field>
+      <field name="name">Retained earnings prior years</field>
+      <field ref="42" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="429">
+      <field name="code">429</field>
+      <field name="name">Retained losses prior years</field>
+      <field ref="42" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="43">
+      <field name="code">43</field>
+      <field name="name">Net income</field>
+      <field ref="4" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="431">
+      <field name="code">431</field>
+      <field name="name">Net income in process of approval</field>
+      <field ref="43" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="45">
+      <field name="code">45</field>
+      <field name="name">Provisions</field>
+      <field ref="4" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="451">
+      <field name="code">451</field>
+      <field name="name">Provisions as per special legislation</field>
+      <field ref="45" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="453">
+      <field name="code">453</field>
+      <field name="name">Provision for income tax</field>
+      <field ref="45" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="459">
+      <field name="code">459</field>
+      <field name="name">Other provisions</field>
+      <field ref="45" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="46">
+      <field name="code">46</field>
+      <field name="name">Long-term bank loans</field>
+      <field ref="4" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="460">
+      <field name="code">460</field>
+      <field name="name">Bank loans</field>
+      <field ref="46" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="47">
+      <field name="code">47</field>
+      <field name="name">Long-term liabilities</field>
+      <field ref="4" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="471">
+      <field name="code">471</field>
+      <field name="name"> Long-term liabilities - controlling person</field>
+      <field ref="47" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="472">
+      <field name="code">472</field>
+      <field name="name">Long-term liabilities - significant influence</field>
+      <field ref="47" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="473">
+      <field name="code">473</field>
+      <field name="name">Issued bonds</field>
+      <field ref="47" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="474">
+      <field name="code">474</field>
+      <field name="name">Rental liabilities</field>
+      <field ref="47" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="475">
+      <field name="code">475</field>
+      <field name="name">Long-term advance payments received</field>
+      <field ref="47" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="478">
+      <field name="code">478</field>
+      <field name="name">Long-term notes payable</field>
+      <field ref="47" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="479">
+      <field name="code">479</field>
+      <field name="name">Other long-term liabilities</field>
+      <field ref="47" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="48">
+      <field name="code">48</field>
+      <field name="name">Deferred tax payable and receivable</field>
+      <field ref="4" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="481">
+      <field name="code">481</field>
+      <field name="name">Deferred tax payable and receivable</field>
+      <field ref="48" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="49">
+      <field name="code">49</field>
+      <field name="name">Individual owner</field>
+      <field ref="4" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="491">
+      <field name="code">491</field>
+      <field name="name">Individual owner account</field>
+      <field ref="49" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_liability" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="5">
+      <field name="code">5</field>
+      <field name="name">Expenses</field>
+      <field ref="account_template_entrepreneurs_root" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="50">
+      <field name="code">50</field>
+      <field name="name">Consumed purchases</field>
+      <field ref="5" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="501">
+      <field name="code">501</field>
+      <field name="name">Material consumed</field>
+      <field ref="50" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="502">
+      <field name="code">502</field>
+      <field name="name">Energy consumed</field>
+      <field ref="50" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="503">
+      <field name="code">503</field>
+      <field name="name">Other utilities consumed</field>
+      <field ref="50" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="504">
+      <field name="code">504</field>
+      <field name="name">Merchandise sold</field>
+      <field ref="50" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="51">
+      <field name="code">51</field>
+      <field name="name">Services</field>
+      <field ref="5" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="511">
+      <field name="code">511</field>
+      <field name="name">Repairs and maintenance</field>
+      <field ref="51" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="512">
+      <field name="code">512</field>
+      <field name="name">Travel</field>
+      <field ref="51" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="513">
+      <field name="code">513</field>
+      <field name="name">Entertainment expenses</field>
+      <field ref="51" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="518">
+      <field name="code">518</field>
+      <field name="name">Other services</field>
+      <field ref="51" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="52">
+      <field name="code">52</field>
+      <field name="name">Personnel costs</field>
+      <field ref="5" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="521">
+      <field name="code">521</field>
+      <field name="name">Wages and salaries</field>
+      <field ref="52" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="522">
+      <field name="code">522</field>
+      <field name="name">Partner and cooperative member employment compensation</field>
+      <field ref="52" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="523">
+      <field name="code">523</field>
+      <field name="name">Compensation of organ members of company and cooperative</field>
+      <field ref="52" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="524">
+      <field name="code">524</field>
+      <field name="name">Legal social security insurance</field>
+      <field ref="52" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="525">
+      <field name="code">525</field>
+      <field name="name">Other social security insurance</field>
+      <field ref="52" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="526">
+      <field name="code">526</field>
+      <field name="name">Social security expense of individual owner</field>
+      <field ref="52" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="527">
+      <field name="code">527</field>
+      <field name="name">Legal social security expense</field>
+      <field ref="52" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="528">
+      <field name="code">528</field>
+      <field name="name">Other social security expense</field>
+      <field ref="52" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="53">
+      <field name="code">53</field>
+      <field name="name">Taxes and fees</field>
+      <field ref="5" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="531">
+      <field name="code">531</field>
+      <field name="name">Road tax</field>
+      <field ref="53" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="532">
+      <field name="code">532</field>
+      <field name="name">Land value tax</field>
+      <field ref="53" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="538">
+      <field name="code">538</field>
+      <field name="name">Other taxes and fees</field>
+      <field ref="53" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="54">
+      <field name="code">54</field>
+      <field name="name">Other operating expenses</field>
+      <field ref="5" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="541">
+      <field name="code">541</field>
+      <field name="name">Net book value of intangible and tangible assets sold</field>
+      <field ref="54" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="542">
+      <field name="code">542</field>
+      <field name="name">Material sold</field>
+      <field ref="54" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="543">
+      <field name="code">543</field>
+      <field name="name">Gifts</field>
+      <field ref="54" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="544">
+      <field name="code">544</field>
+      <field name="name">Contractual penalties and late payment interest</field>
+      <field ref="54" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="545">
+      <field name="code">545</field>
+      <field name="name">Other fines and penalties</field>
+      <field ref="54" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="546">
+      <field name="code">546</field>
+      <field name="name">Write-off of receivables</field>
+      <field ref="54" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="548">
+      <field name="code">548</field>
+      <field name="name">Other operating expenses</field>
+      <field ref="54" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="549">
+      <field name="code">549</field>
+      <field name="name">Shrinkage (spoilage) from operating activities</field>
+      <field ref="54" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="55">
+      <field name="code">55</field>
+      <field name="name">Depreciation, provisions, complex pre-paid expenses and allowances in operating area</field>
+      <field ref="5" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="551">
+      <field name="code">551</field>
+      <field name="name">Depreciation and amortization of long-term tangible and intangible assets</field>
+      <field ref="55" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="552">
+      <field name="code">552</field>
+      <field name="name">Creation and clearing of provisions under special legislation</field>
+      <field ref="55" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="554">
+      <field name="code">554</field>
+      <field name="name">Creation and clearing of other provisions</field>
+      <field ref="55" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="555">
+      <field name="code">555</field>
+      <field name="name">Creation and clearing of complex pre-paid expenses</field>
+      <field ref="55" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="557">
+      <field name="code">557</field>
+      <field name="name">Clearing of allowance to revaluation differences on acquired assets</field>
+      <field ref="55" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="558">
+      <field name="code">558</field>
+      <field name="name">Creation and clearing of legal allowances in operating activities</field>
+      <field ref="55" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="559">
+      <field name="code">559</field>
+      <field name="name">Creation and clearing of allowances in operating activities</field>
+      <field ref="55" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="56">
+      <field name="code">56</field>
+      <field name="name">Financial expenses</field>
+      <field ref="5" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="561">
+      <field name="code">561</field>
+      <field name="name">Securities and shares sold</field>
+      <field ref="56" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="562">
+      <field name="code">562</field>
+      <field name="name">Interests</field>
+      <field ref="56" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="563">
+      <field name="code">563</field>
+      <field name="name">Foreign exchange losses</field>
+      <field ref="56" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="564">
+      <field name="code">564</field>
+      <field name="name">Expenses on revaluation of securities</field>
+      <field ref="56" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="566">
+      <field name="code">566</field>
+      <field name="name">Expenses on financial assets</field>
+      <field ref="56" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="567">
+      <field name="code">567</field>
+      <field name="name">Expenses on derivative transactions</field>
+      <field ref="56" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="568">
+      <field name="code">568</field>
+      <field name="name">Other financial expenses</field>
+      <field ref="56" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="569">
+      <field name="code">569</field>
+      <field name="name">Shrinkage (spoilage) of financial assets</field>
+      <field ref="56" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="57">
+      <field name="code">57</field>
+      <field name="name">Provisions and allowances in financial area</field>
+      <field ref="5" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="574">
+      <field name="code">574</field>
+      <field name="name">Creation and clearing of financial provisions</field>
+      <field ref="57" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="579">
+      <field name="code">579</field>
+      <field name="name">Creation and clearing of allowances from financial activities</field>
+      <field ref="57" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="58">
+      <field name="code">58</field>
+      <field name="name">Extraordinary expenses</field>
+      <field ref="5" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="581">
+      <field name="code">581</field>
+      <field name="name">Expenses from change in method </field>
+      <field ref="58" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="582">
+      <field name="code">582</field>
+      <field name="name">Damages</field>
+      <field ref="58" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="584">
+      <field name="code">584</field>
+      <field name="name">Creation and clearing of extraordinary provisions</field>
+      <field ref="58" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="588">
+      <field name="code">588</field>
+      <field name="name">Other extraordinary expenses</field>
+      <field ref="58" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="589">
+      <field name="code">589</field>
+      <field name="name"> Creation and clearing of allowances on exceptional items</field>
+      <field ref="58" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="59">
+      <field name="code">59</field>
+      <field name="name">Income taxes, transfer accounts and provision for income taxes</field>
+      <field ref="5" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="591">
+      <field name="code">591</field>
+      <field name="name">Income tax on ordinary activities - due</field>
+      <field ref="59" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="592">
+      <field name="code">592</field>
+      <field name="name">Income tax on ordinary activities - deferred</field>
+      <field ref="59" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="593">
+      <field name="code">593</field>
+      <field name="name">Income tax on extraordinary income - due</field>
+      <field ref="59" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="594">
+      <field name="code">594</field>
+      <field name="name">Income tax on extraordinary income - deferred</field>
+      <field ref="59" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="595">
+      <field name="code">595</field>
+      <field name="name">Additional income tax payments</field>
+      <field ref="59" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="596">
+      <field name="code">596</field>
+      <field name="name">Transfer of profit to partners</field>
+      <field ref="59" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="597">
+      <field name="code">597</field>
+      <field name="name">Transfer of operating expenses</field>
+      <field ref="59" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="598">
+      <field name="code">598</field>
+      <field name="name">Transfer of financial expenses</field>
+      <field ref="59" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_expense" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="6">
+      <field name="code">6</field>
+      <field name="name">Revenue</field>
+      <field ref="account_template_entrepreneurs_root" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="60">
+      <field name="code">60</field>
+      <field name="name">Revenues from own activity and merchadise</field>
+      <field ref="6" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="601">
+      <field name="code">601</field>
+      <field name="name">Product revenue</field>
+      <field ref="60" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="602">
+      <field name="code">602</field>
+      <field name="name">Service revenue</field>
+      <field ref="60" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="604">
+      <field name="code">604</field>
+      <field name="name">Merchandise revenue</field>
+      <field ref="60" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="61">
+      <field name="code">61</field>
+      <field name="name">Changes in self manufactured inventory</field>
+      <field ref="6" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="611">
+      <field name="code">611</field>
+      <field name="name">Change in work in progress</field>
+      <field ref="61" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="612">
+      <field name="code">612</field>
+      <field name="name">Change in semi-finished goods</field>
+      <field ref="61" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="613">
+      <field name="code">613</field>
+      <field name="name">Change in products</field>
+      <field ref="61" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="614">
+      <field name="code">614</field>
+      <field name="name">Change in animals</field>
+      <field ref="61" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="62">
+      <field name="code">62</field>
+      <field name="name">Activation</field>
+      <field ref="6" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="621">
+      <field name="code">621</field>
+      <field name="name">Activation of materials and merchandise</field>
+      <field ref="62" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="622">
+      <field name="code">622</field>
+      <field name="name">Activation of internal services</field>
+      <field ref="62" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="623">
+      <field name="code">623</field>
+      <field name="name">Activation of intangible assets</field>
+      <field ref="62" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="624">
+      <field name="code">624</field>
+      <field name="name">Activation of tangible assets</field>
+      <field ref="62" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="64">
+      <field name="code">64</field>
+      <field name="name">Other operating revenue</field>
+      <field ref="6" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="641">
+      <field name="code">641</field>
+      <field name="name">Revenue from sale of intangible and tangible long-lived assets</field>
+      <field ref="64" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="642">
+      <field name="code">642</field>
+      <field name="name">Revenue from sale of material</field>
+      <field ref="64" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="644">
+      <field name="code">644</field>
+      <field name="name">Contractual fines and interest on late payments</field>
+      <field ref="64" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="646">
+      <field name="code">646</field>
+      <field name="name">Revenue from written off receivables</field>
+      <field ref="64" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="648">
+      <field name="code">648</field>
+      <field name="name">Other operating revenue</field>
+      <field ref="64" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="66">
+      <field name="code">66</field>
+      <field name="name">Financial revenue</field>
+      <field ref="6" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="661">
+      <field name="code">661</field>
+      <field name="name">Revenues from sales of securities and shares</field>
+      <field ref="66" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="662">
+      <field name="code">662</field>
+      <field name="name">Interests</field>
+      <field ref="66" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="663">
+      <field name="code">663</field>
+      <field name="name">Foreign exchange gains</field>
+      <field ref="66" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="664">
+      <field name="code">664</field>
+      <field name="name">Revenue from revaluation of securities</field>
+      <field ref="66" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="665">
+      <field name="code">665</field>
+      <field name="name">Revenue from financial assets</field>
+      <field ref="66" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="666">
+      <field name="code">666</field>
+      <field name="name">Revenue from short-term financial assets</field>
+      <field ref="66" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="667">
+      <field name="code">667</field>
+      <field name="name">Revenue from derivative operations</field>
+      <field ref="66" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="668">
+      <field name="code">668</field>
+      <field name="name">Other financial revenue</field>
+      <field ref="66" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="68">
+      <field name="code">68</field>
+      <field name="name">Extraordinary revenue</field>
+      <field ref="6" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="681">
+      <field name="code">681</field>
+      <field name="name">Revenue from change in method</field>
+      <field ref="68" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="688">
+      <field name="code">688</field>
+      <field name="name">Other extraordinary revenue</field>
+      <field ref="68" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="69">
+      <field name="code">69</field>
+      <field name="name">Transfer accounts</field>
+      <field ref="6" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="697">
+      <field name="code">697</field>
+      <field name="name">Transfer of operating revenue</field>
+      <field ref="69" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="698">
+      <field name="code">698</field>
+      <field name="name">Transfer of financial revenue</field>
+      <field ref="69" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_income" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="7">
+      <field name="code">7</field>
+      <field name="name">Closing and sub-balance sheet accounts</field>
+      <field ref="account_template_entrepreneurs_root" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="70">
+      <field name="code">70</field>
+      <field name="name">Balance sheet accounts</field>
+      <field ref="7" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="701">
+      <field name="code">701</field>
+      <field name="name">Opening balance sheet account</field>
+      <field ref="70" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="702">
+      <field name="code">702</field>
+      <field name="name">Closing balance sheet account</field>
+      <field ref="70" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account.data_account_type_asset" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="71">
+      <field name="code">71</field>
+      <field name="name">Profit and Loss Account</field>
+      <field ref="7" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="710">
+      <field name="code">710</field>
+      <field name="name">Profit and Loss Account</field>
+      <field ref="71" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account_type_profit_and_loss" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="75">
+      <field name="code">75</field>
+      <field name="name">Assets</field>
+      <field ref="7" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="750">
+      <field name="code">750</field>
+      <field name="name">Assets</field>
+      <field ref="75" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account_type_profit_and_loss" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="76">
+      <field name="code">76</field>
+      <field name="name">Receivables</field>
+      <field ref="7" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="760">
+      <field name="code">760</field>
+      <field name="name">Receivables</field>
+      <field ref="76" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account_type_profit_and_loss" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="77">
+      <field name="code">77</field>
+      <field name="name">Payables</field>
+      <field ref="7" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="770">
+      <field name="code">770</field>
+      <field name="name">Payables</field>
+      <field ref="77" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account_type_profit_and_loss" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="78">
+      <field name="code">78</field>
+      <field name="name">Financial instruments</field>
+      <field ref="7" name="parent_id"/>
+      <field name="type">view</field>
+      <field ref="account.data_account_type_view" name="user_type"/>
+    </record>
+    <record model="account.account.template" id="780">
+      <field name="code">780</field>
+      <field name="name">Technical accounts</field>
+      <field ref="78" name="parent_id"/>
+      <field name="type">other</field>
+      <field ref="account_type_profit_and_loss" name="user_type"/>
+    </record>
+  </data>
+</openerp>

@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<openerp>
+<data noupdate="True">
+
+#
+# Tax Code Template Configuration
+#
+  <record model="account.tax.code.template" id="vat_code_tax">
+    <field name="name">Tax</field>
+  </record>
+  
+  <record model="account.tax.code.template" id="vat_code_balance_net">
+    <field name="name">Tax difference</field>
+    <field name="parent_id" ref="vat_code_tax"/>
+  </record>
+
+  <record model="account.tax.code.template" id="vat_code_due_tva_reduced">
+    <field name="name">Payable tax (reduced)</field>
+    <field name="parent_id" ref="vat_code_balance_net"/>
+  </record>
+
+  <record model="account.tax.code.template" id="vat_code_due_tva_standard">
+    <field name="name">Payable tax (standard)</field>
+    <field name="parent_id" ref="vat_code_balance_net"/>
+  </record>
+
+  <record model="account.tax.code.template" id="vat_code_due_tva_exempt">
+    <field name="name">Payable tax (exempt)</field>
+    <field name="parent_id" ref="vat_code_balance_net"/>
+  </record>
+
+  <record model="account.tax.code.template" id="vat_code_payable_reduced">
+    <field name="name">Tax on input (reduced)</field>
+    <field name="parent_id" ref="vat_code_balance_net"/>
+    <field eval="-1" name="sign"/>
+  </record>
+
+  <record model="account.tax.code.template" id="vat_code_payable_standard">
+    <field name="name">Tax on input (standard)</field>
+    <field name="parent_id" ref="vat_code_balance_net"/>
+    <field eval="-1" name="sign"/>
+  </record>
+
+  <record model="account.tax.code.template" id="vat_code_payable_exempt">
+    <field name="name">Tax on input (exempt)</field>
+    <field name="parent_id" ref="vat_code_balance_net"/>
+    <field eval="-1" name="sign"/>
+  </record>
+
+
+  <record model="account.tax.code.template" id="vat_code_base_net_reduced">
+    <field name="name">Tax base (reduced)</field>
+    <field name="parent_id" ref="vat_code_tax"/>
+  </record>
+
+
+  <record model="account.tax.code.template" id="vat_code_base_due_reduced">
+    <field name="name">Tax base on output (reduced)</field>
+    <field name="parent_id" ref="vat_code_base_net_reduced"/>
+  </record>
+
+
+  <record model="account.tax.code.template" id="vat_code_receivable_net_reduced">
+    <field name="name">Tax base on input (reduced)</field>
+    <field name="parent_id" ref="vat_code_base_net_reduced"/>
+    <field eval="-1" name="sign"/>
+  </record>
+
+  <record model="account.tax.code.template" id="vat_code_base_net_standard">
+    <field name="name">Tax base (standard)</field>
+    <field name="parent_id" ref="vat_code_tax"/>
+  </record>
+
+
+  <record model="account.tax.code.template" id="vat_code_base_due_standard">
+    <field name="name">Tax base on output (standard)</field>
+    <field name="parent_id" ref="vat_code_base_net_standard"/>
+  </record>
+
+
+  <record model="account.tax.code.template" id="vat_code_receivable_net_standard">
+    <field name="name">Tax base on input (standard)</field>
+    <field name="parent_id" ref="vat_code_base_net_standard"/>
+    <field eval="-1" name="sign"/>
+  </record>
+
+  <record model="account.tax.code.template" id="vat_code_base_net_exempt">
+    <field name="name">Tax base (exempt)</field>
+    <field name="parent_id" ref="vat_code_tax"/>
+  </record>
+
+
+  <record model="account.tax.code.template" id="vat_code_base_due_exempt">
+    <field name="name">Tax base on output (exempt)</field>
+    <field name="parent_id" ref="vat_code_base_net_exempt"/>
+  </record>
+
+
+  <record model="account.tax.code.template" id="vat_code_receivable_net_exempt">
+    <field name="name">Tax base on input (exempt)</field>
+    <field name="parent_id" ref="vat_code_base_net_exempt"/>
+    <field eval="-1" name="sign"/>
+  </record>
+
+</data>
+</openerp>

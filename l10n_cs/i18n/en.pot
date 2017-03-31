@@ -1,0 +1,1744 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* l10n_cs
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20140323-001318\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-23 14:49+0000\n"
+"PO-Revision-Date: 2014-03-23 14:49+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.11
+msgid "Material"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.33
+msgid "Clearing account with employees and institutions"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.581
+msgid "Expenses from change in method "
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.561
+msgid "Securities and shares sold"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_due_tva_reduced
+msgid "Payable tax (reduced)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.429
+msgid "Retained losses prior years"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.543
+msgid "Gifts"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.08
+msgid "Accumulated depreciation on long-lived tangibles"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.193
+msgid "Allowances on semi-finished goods"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_due_tva_exempt
+msgid "Payable tax (exempt)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.012
+msgid "Research and development capitalized"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.579
+msgid "Creation and clearing of allowances from financial activities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.132
+msgid "Merchandise in warehouse and stores"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_receivable_net_reduced
+msgid "Tax base on input (reduced)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.069
+msgid "Other long-term financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.094
+msgid "Allowance on long-term incomplete tangible long-lived assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.366
+msgid "Payables to equity holders and members of cooperatives from employment"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_tax
+msgid "Tax"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.type,name:l10n_cs.account_type_profit_and_loss
+msgid "Rozvážný"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.479
+msgid "Other long-term liabilities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.546
+msgid "Write-off of receivables"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.194
+msgid "Allowances on products"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_net_exempt
+msgid "Tax base (exempt)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.122
+msgid "Semi-finished goods"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.664
+msgid "Revenue from revaluation of securities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.641
+msgid "Revenue from sale of intangible and tangible long-lived assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.582
+msgid "Damages"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.32
+msgid "Short-term liabilities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.372
+msgid "Liability from purchase of business"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.554
+msgid "Creation and clearing of other provisions"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.257
+msgid "Other securities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.45
+msgid "Provisions"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.019
+msgid "Other intangible fixed assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.602
+msgid "Service revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_net_standard
+msgid "Tax base (standard)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.71
+#: model:account.account.template,name:l10n_cs.710
+msgid "Profit and Loss Account"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.613
+msgid "Change in products"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.644
+msgid "Contractual fines and interest on late payments"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.427
+msgid "Other reserves"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.fiscal.position.template,name:l10n_cs.fiscal_position_template_3
+msgid "Customers outside European Union"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.414
+msgid "Asset and liability revaluation differences"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.325
+msgid "Other liabilities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.381
+msgid "Prepaid expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.0
+msgid "Long-lived assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_payable_reduced
+msgid "Tax on input (reduced)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.account_template_entrepreneurs_root
+msgid "Root account"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.525
+msgid "Other social security insurance"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.53
+msgid "Taxes and fees"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax5
+msgid "VAT on input 15%"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_balance_net
+msgid "Tax difference"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.096
+msgid "Allowance on long-term financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.42
+msgid "Reserves from profits and transfer of income "
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.453
+msgid "Provision for income tax"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.377
+msgid "Sold options"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.47
+msgid "Long-term liabilities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.563
+msgid "Foreign exchange losses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.13
+msgid "Merchandise"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.131
+msgid "Cost of merchandise"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.031
+msgid "Land"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.391
+msgid "Allowance to receivables"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax1
+msgid "VAT 21.0%"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.646
+msgid "Revenue from written off receivables"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.322
+msgid "Notes payable"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.76
+#: model:account.account.template,name:l10n_cs.760
+msgid "Receivables"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.38
+msgid "Transitory asset and liability accounts"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.3
+msgid "Clearing relationships"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_due_standard
+msgid "Tax base on output (standard)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.042
+msgid "Acquisition of tangible long-lived assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.422
+msgid "Non-distributable reserve"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.22
+#: model:account.account.template,name:l10n_cs.221
+msgid "Cash in bank"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.666
+msgid "Revenue from short-term financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.385
+msgid "Accrued revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.521
+msgid "Wages and salaries"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.253
+msgid "Registered debt securities held for trading"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.241
+msgid "Issued short-term bonds"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.62
+msgid "Activation"
+msgstr ""
+
+#. module: l10n_cs
+#: view:res.partner:0
+msgid "e.g. 2862 9400"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.545
+msgid "Other fines and penalties"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.261
+msgid "Cash in transit"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.211
+msgid "Petty cash"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.69
+msgid "Transfer accounts"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.34
+msgid "Clearing of taxes and subsidies"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.601
+msgid "Product revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.065
+msgid "Debt securities held to maturity"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax2
+msgid "VAT 15.0%"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.026
+msgid "Livestock"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_receivable_net_standard
+msgid "Tax base on input (standard)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.478
+msgid "Long-term notes payable"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.4
+msgid "Equity and long-term liabilities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.557
+msgid "Clearing of allowance to revaluation differences on acquired assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_due_tva_standard
+msgid "Payable tax (standard)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.688
+msgid "Other extraordinary revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.48
+msgid "Deferred payable and receivable"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.092
+msgid "Allowance on tangible long-lived assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.384
+msgid "Unearned and deferred revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.19
+msgid "Allowances on inventory"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.59
+msgid "Income taxes, transfer accounts and provision for income taxes"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.524
+msgid "Legal social security insurance"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.014
+msgid "Goodwill"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.611
+msgid "Change in work in progress"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.598
+msgid "Transfer of financial expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.139
+msgid "Merchandise in transit"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.153
+msgid "Advance payments for merchandise"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.574
+msgid "Creation and clearing of financial provisions"
+msgstr ""
+
+#. module: l10n_cs
+#: field:res.partner,company_registry:0
+msgid "Company Registry"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.412
+msgid "Share premium"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.668
+msgid "Other financial revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.614
+msgid "Change in animals"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.532
+msgid "Land value tax"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.041
+msgid "Acquisition of intangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.022
+msgid "Fixtures, fittings, plant and machinery"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.343
+msgid "Value added tax"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.523
+msgid "Compensation of organ members of company and cooperative"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.701
+msgid "Opening balance sheet account"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.428
+msgid "Retained earnings prior years"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.086
+msgid "Accumulated depreciation of livestock"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.067
+msgid "Other loans"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.54
+#: model:account.account.template,name:l10n_cs.548
+msgid "Other operating expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.199
+msgid " Allowances on advance payments on animals"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.398
+msgid "Connecting account for partnering"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.518
+msgid "Other services"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.382
+msgid "Complex prepaid expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.697
+msgid "Transfer of operating revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.29
+msgid "Allowances on short-term financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.093
+msgid "Allowance on Long-term incomplete intangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.chart.template,name:l10n_cs.l10n_cs_account_chart_template_entrepreneurs
+msgid "Czech Chart of Accounts for Entrepreneurs"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.362
+msgid "Liabilities - significant influence"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.49
+msgid "Individual owner"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.195
+msgid "Allowances on animals"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.419
+msgid "Changes in legal capital"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.256
+msgid "Short-term debt securities held to maturity"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.60
+msgid "Revenues from own activity and merchadise"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.7
+msgid "Closing and sub - balance sheet accounts"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.475
+msgid "Long-term advance payments received"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.26
+msgid "Transfers between financial accounts"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.559
+msgid "Creation and clearing of allowances in operating activities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.074
+msgid " Accumulated amortization of valuable rights"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.251
+msgid "Registered equity securities held for trading"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.50
+msgid "Consumed purchases"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.341
+msgid "Income tax"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.66
+msgid "Financial revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.61
+msgid "Changes in self manufactured inventory"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.596
+msgid "Transfer of profit to partners"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.311
+msgid "Accounts receivable"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.667
+msgid "Revenue from derivative operations"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.555
+msgid "Creation and clearing of complex pre-paid expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.029
+msgid "Other tangible fixed assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.351
+msgid "Receivables - controlling and managing person"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax3
+msgid "VAT 0.0%"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.589
+msgid " Creation and clearing of allowances on exceptional items"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.336
+msgid "Clearing with social security and health insurance"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.389
+msgid "Estimated passive amounts"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.079
+msgid "Accumulated amortization of other intangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.151
+msgid "Advance payments on material"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.249
+msgid "Other short-term financial assistance"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.346
+msgid "Subsidies from government budget"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.198
+msgid "Allowances on advance payments on merchandise"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.51
+msgid "Services"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.417
+msgid "Differences from company transformations"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.591
+msgid "Income tax on ordinary activities - due"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.75
+#: model:account.account.template,name:l10n_cs.750
+msgid "Assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.551
+msgid "Depreciation and amortization of long-term tangible and intangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.213
+msgid "Liquid valuables"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.123
+msgid "Products"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.55
+msgid "Depreciation, provisions, complex pre-paid expenses and allowances in operating area"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.531
+msgid "Road tax"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.011
+msgid "Set-up costs"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.595
+msgid "Additional income tax payments"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.549
+msgid "Shrinkage (spoilage) from operating activities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.12
+msgid "Self manufactured inventories"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax4
+msgid "VAT on input 21%"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.032
+msgid "Works of art and collections"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.780
+msgid "Technical accounts"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_payable_exempt
+msgid "Tax on input (exempt)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.02
+msgid "Long-lived tangible assets depreciated"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.511
+msgid "Repairs and maintenance"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.1
+msgid "Inventory"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.68
+msgid "Extraordinary revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.095
+msgid "Allowance on advance payments given on long-lived assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.021
+msgid "Buildings"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.597
+msgid "Transfer of operating expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.01
+#: model:account.account.template,name:l10n_cs.010
+msgid "Long-lived intangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.368
+msgid "Payable to group companies"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.063
+msgid "Other financial assets and shares"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.513
+msgid "Entertainment expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.313
+msgid "Receivables on discounted securities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.702
+msgid "Closing balance sheet account"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_payable_standard
+msgid "Tax on input (standard)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax6
+msgid "VAT on input 0%"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.541
+msgid "Net book value of intangible and tangible assets sold"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.082
+msgid "Accumulated depreciation of independently movable assets and groups of movable assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.367
+msgid "Payables from underwritten unpaid securities and deposits"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.354
+msgid "Receivable for equity holder related to payment of loss"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.526
+msgid "Social security expense of individual owner"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_net_reduced
+msgid "Tax base (reduced)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.345
+#: model:account.account.template,name:l10n_cs.538
+msgid "Other taxes and fees"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.374
+msgid "Rent receivable"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.383
+msgid "Accrued expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.544
+msgid "Contractual penalties and late payment interest"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.073
+msgid "Accumulated amortization of software"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.512
+msgid "Travel"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.472
+msgid "Long-term liabilities - significant influence"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.066
+msgid "Loans and credit - managing and controlling persons, significant influence"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.474
+msgid "Rental liabilities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.64
+#: model:account.account.template,name:l10n_cs.648
+msgid "Other operating revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.58
+msgid "Extraordinary expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.451
+msgid "Provisions as per special legislation"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.562
+#: model:account.account.template,name:l10n_cs.662
+msgid "Interests"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.604
+msgid "Merchandise revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.56
+msgid "Financial expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.46
+msgid "Long-term bank loans"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.191
+msgid "Allowances on material"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.321
+msgid "Accounts payable"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.352
+msgid "Receivables - significant influence"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.569
+msgid "Shrinkage (spoilage) of financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.501
+msgid "Material consumed"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.593
+msgid "Income tax on extraordinary income - due"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.097
+msgid "Revaluation of acquired assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.03
+msgid "Long-lived tangible assets non-depreciated"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.342
+msgid "Other direct taxes"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.013
+msgid "Software"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.431
+msgid "Net income in process of approval"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.411
+msgid "Legal (statutory) capital"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.612
+msgid "Change in semi-finished goods"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.502
+msgid "Energy consumed"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.324
+msgid "Advance payments received"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.365
+msgid "Other payables to partners and cooperative members"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.542
+msgid "Material sold"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.665
+msgid "Revenue from financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.621
+msgid "Activation of materials and merchandise"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.06
+msgid "Long-term financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.23
+#: model:account.account.template,name:l10n_cs.231
+msgid "Short-term bank loans"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.197
+msgid "Allowances on advance payments on material"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.072
+msgid "Accumulated amortization of intangible research and development results"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.567
+msgid "Expenses on derivative transactions"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.061
+msgid "Financial assets and shares in subsidiaries"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.112
+msgid "Materials in inventory"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.78
+msgid "Financial instruments"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.255
+msgid "Own bonds"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.481
+msgid "Deferred tax payable and receivable"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.418
+msgid "Revaluation differences from company transformations"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.528
+msgid "Other social security expense"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.111
+msgid "Cost of material"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.192
+msgid "Allowances on work in process"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.661
+msgid "Revenues from sales of securities and shares"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.043
+msgid "Acquisition of financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.364
+msgid "Payables to equity holders in profit distribution"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.37
+msgid "Other receivables and payables"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.566
+msgid "Expenses on financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.503
+msgid "Other utilities consumed"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.471
+msgid " Long-term liabilities - controlling person"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.051
+msgid "Advance payments for long-lived intangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.361
+msgid "Liabilities - controlling and managing person"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.09
+msgid "Allowances on long-lived assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_receivable_net_exempt
+msgid "Tax base on input (exempth)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.025
+msgid "Perennial crops"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_due_reduced
+msgid "Tax base on output (reduced)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.623
+msgid "Activation of intangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.291
+msgid "Allowance for short-term financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.2
+msgid "Cash, cash equivalents and short-term bank loans"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.31
+msgid "Short and long-term accounts receivable"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.fiscal.position.template,name:l10n_cs.fiscal_position_template_2
+msgid "Customers inside European Union"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.395
+msgid "Internal netting"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.098
+msgid "Allowance on revaluation of acquired assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.522
+msgid "Partner and cooperative member employment compensation"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.77
+#: model:account.account.template,name:l10n_cs.770
+msgid "Payables"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.663
+msgid "Foreign exchange gains"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.698
+msgid "Transfer of financial revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.15
+msgid "Advance payments on inventory"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.491
+msgid "Individual owner account"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.04
+msgid "Intangible and tangible long-lived assets in progress and acquisition of Long-term financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.552
+msgid "Creation and clearing of provisions under special legislation"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.081
+msgid "Accumulated depreciation of buildings"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.355
+msgid "Other receivables from equity holders and cooperative members"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.062
+msgid "Financial assets and shares in associates"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.52
+msgid "Personnel costs"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.07
+msgid "Accumulated amortization on long-lived intangibles"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.36
+msgid "Payables to partners, group entities and cooperative members"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_due_exempt
+msgid "Tax base on output (exempt)"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.376
+msgid "Purchased options"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.43
+msgid "Net income"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.39
+msgid "Allowances to clearing relationships and internal netting"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.053
+msgid "Advance payments for long-lived financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.413
+msgid " Other capital reserves"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.05
+msgid "Advance payments for long-lived assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.089
+msgid "Accumulated depreciation of other tangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.592
+msgid "Income tax on ordinary activities - deferred"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.type,name:l10n_cs.account_type_equity
+msgid "Vlastní jmění"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.6
+msgid "Revenue"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.121
+msgid "Work in process"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.196
+msgid "Allowances on merchandise"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.25
+msgid "Short-term securities and shares, and short-term financial assets in progress"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.423
+msgid "Statutory reserves"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.347
+msgid "Other subsidies"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.622
+msgid "Activation of internal services"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.312
+msgid "Notes receivable"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.421
+msgid "Legal reserve"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.459
+msgid "Other provisions"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.335
+msgid "Receivables from employees"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.41
+msgid "Legal (statutory) capital and capital reserves"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.594
+msgid "Income tax on extraordinary income - deferred"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.70
+msgid "Balance sheet accounts"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.473
+msgid "Issued bonds"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.358
+msgid "Receivables from group companies"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.624
+msgid "Activation of tangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.071
+msgid "Accumulated amortization of start-up costsm"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.124
+msgid "Animals"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.375
+msgid "Receivables on bonds issued"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.588
+msgid "Other extraordinary expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.085
+msgid "Accumulated depreciation of orchards and vineyards"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.232
+msgid "Discounted loans"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.119
+msgid "Material in transit"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.314
+msgid "Advance payments given"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.642
+msgid "Revenue from sale of material"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.315
+#: model:account.account.template,name:l10n_cs.378
+msgid "Other receivables"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.371
+msgid "Receivable from sale of business"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.24
+msgid "Short-term financial assistance"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.075
+msgid "Accumulated amortization of goodwill"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.681
+msgid "Revenue from change in method"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.fiscal.position.template,name:l10n_cs.fiscal_position_template_1
+msgid "Customers in Czech Republic"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.052
+msgid "Advance payments for long-lived tangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.57
+msgid "Provisions and allowances for financing area"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.388
+msgid "Estimated active amounts"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.259
+msgid "Acquisition of short-term financial assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.527
+msgid "Legal social security expense"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.353
+msgid "Subscribed legal capital receivable"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.152
+msgid "Advance payments on animals"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.091
+msgid "Allowance on intangible assets"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.331
+msgid "Employees"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.21
+msgid "Cash"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.373
+msgid " Receivables and payables from long-lived-term operations"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.379
+msgid "Other payables"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.584
+msgid "Creation and clearing of extraordinary provisions"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.568
+msgid "Other financial expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.504
+msgid "Merchandise sold"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.564
+msgid "Expenses on revaluation of securities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.5
+msgid "Expenses"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.35
+msgid "Receivables from partners, group entities and cooperative members"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.252
+msgid "Own shares and equity interests"
+msgstr ""
+
+#. module: l10n_cs
+#: model:ir.model,name:l10n_cs.model_res_partner
+msgid "Partner"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.460
+msgid "Bank loans"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.558
+msgid "Creation and clearing of legal allowances in operating activities"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.333
+msgid "Other liabilities to employees"
+msgstr ""
+

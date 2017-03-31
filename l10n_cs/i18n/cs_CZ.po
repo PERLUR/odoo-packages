@@ -1,0 +1,1762 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* l10n_cs
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20140323-001318\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-23 14:49+0000\n"
+"PO-Revision-Date: 2014-03-23 21:56+0100\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.11
+msgid "Material"
+msgstr "Materiál"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.33
+msgid "Clearing account with employees and institutions"
+msgstr "Zúčtování se zaměstnanci a institucemi"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.581
+msgid "Expenses from change in method "
+msgstr "Náklady na změnu metody"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.561
+msgid "Securities and shares sold"
+msgstr "Prodané cenné papíry a podíly"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_due_tva_reduced
+msgid "Payable tax (reduced)"
+msgstr "Splatná daň (snížená)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.429
+msgid "Retained losses prior years"
+msgstr "Neuhrazená ztráta minulých let"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.543
+msgid "Gifts"
+msgstr "Dary"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.08
+msgid "Accumulated depreciation on long-lived tangibles"
+msgstr "Oprávky k dlouhodobému hmotnému majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.193
+msgid "Allowances on semi-finished goods"
+msgstr "Opravná položka k polotovarům vlastní výroby"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_due_tva_exempt
+msgid "Payable tax (exempt)"
+msgstr "Splatná daň (nulová sazba)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.012
+msgid "Research and development capitalized"
+msgstr " Nehmotné výsledky výzkumu a vývoje"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.579
+msgid "Creation and clearing of allowances from financial activities"
+msgstr "Tvorba a zúčtování opravných položek ve finanční činnosti"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.132
+msgid "Merchandise in warehouse and stores"
+msgstr "Zboží na skladě a v prodejnách"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_receivable_net_reduced
+msgid "Tax base on input (reduced)"
+msgstr "Základ daně na vstupu (snížená sazba)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.069
+msgid "Other long-term financial assets"
+msgstr "Jiný dlouhodobý finanční majetek "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.094
+msgid "Allowance on long-term incomplete tangible long-lived assets"
+msgstr "Opravná položka k dlouhodobému nedokončenému hmotnému majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.366
+msgid "Payables to equity holders and members of cooperatives from employment"
+msgstr "Závazky ke společníkům a členům družstva ze závislé činnosti"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_tax
+msgid "Tax"
+msgstr "Daň"
+
+#. module: l10n_cs
+#: model:account.account.type,name:l10n_cs.account_type_profit_and_loss
+msgid "Rozvážný"
+msgstr "Rozvážný"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.479
+msgid "Other long-term liabilities"
+msgstr "Jiné dlouhodobé závazky "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.546
+msgid "Write-off of receivables"
+msgstr "Odpis pohledávky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.194
+msgid "Allowances on products"
+msgstr "Opravná položka k výrobkům"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_net_exempt
+msgid "Tax base (exempt)"
+msgstr "Základ daně (nulová sazba)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.122
+msgid "Semi-finished goods"
+msgstr "Polotovary vlastní výroby"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.664
+msgid "Revenue from revaluation of securities"
+msgstr "Výnosy z přecenění cenných papírů  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.641
+msgid "Revenue from sale of intangible and tangible long-lived assets"
+msgstr "Tržby z prodeje dlouhodobého nehmotného a hmotného majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.582
+msgid "Damages"
+msgstr "Škody"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.32
+msgid "Short-term liabilities"
+msgstr "Závazky (krátkodobé)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.372
+msgid "Liability from purchase of business"
+msgstr "Závazky z koupě podniku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.554
+msgid "Creation and clearing of other provisions"
+msgstr "Tvorba a zúčtování ostatních rezerv"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.257
+msgid "Other securities"
+msgstr "-§¨Ostatní cenné papíry"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.45
+msgid "Provisions"
+msgstr "Rezervy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.019
+msgid "Other intangible fixed assets"
+msgstr "Jiný dlouhodobý nehmotný majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.602
+msgid "Service revenue"
+msgstr "Tržby z prodeje služeb"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_net_standard
+msgid "Tax base (standard)"
+msgstr "Základ daně (základní sazba)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.71
+#: model:account.account.template,name:l10n_cs.710
+msgid "Profit and Loss Account"
+msgstr "Účet zisků a ztrát"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.613
+msgid "Change in products"
+msgstr "Změna stavu výrobků"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.644
+msgid "Contractual fines and interest on late payments"
+msgstr "Smluvní pokuty a úroky z prodlení"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.427
+msgid "Other reserves"
+msgstr "Ostatní fondy"
+
+#. module: l10n_cs
+#: model:account.fiscal.position.template,name:l10n_cs.fiscal_position_template_3
+msgid "Customers outside European Union"
+msgstr "Zákaznící mimo Evropskou Unii"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.414
+msgid "Asset and liability revaluation differences"
+msgstr "Oceňovací rozdíly z přecenění majetku a závazků"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.325
+msgid "Other liabilities"
+msgstr "Ostatní závazky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.381
+msgid "Prepaid expenses"
+msgstr "Náklady příštích období"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.0
+msgid "Long-lived assets"
+msgstr "DLOUHODOBÝ MAJETEK"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_payable_reduced
+msgid "Tax on input (reduced)"
+msgstr "Daň na vstupu (snížená)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.account_template_entrepreneurs_root
+msgid "Root account"
+msgstr "Kořenový účet"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.525
+msgid "Other social security insurance"
+msgstr "Ostatní sociální pojištění"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.53
+msgid "Taxes and fees"
+msgstr "Daně a poplatky"
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax5
+msgid "VAT on input 15%"
+msgstr "DPH na vstupu 15,0%"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_balance_net
+msgid "Tax difference"
+msgstr "Rozdíl daně"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.096
+msgid "Allowance on long-term financial assets"
+msgstr "Opravná položka k dlouhodobému finančnímu majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.42
+msgid "Reserves from profits and transfer of income "
+msgstr ""
+"Rezervní fondy, nedělitelný fond a ostatní fondy ze zisku a převedené "
+"výsledky hospodaření"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.453
+msgid "Provision for income tax"
+msgstr "Rezerva na daň z příjmů "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.377
+msgid "Sold options"
+msgstr "Prodané opce"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.47
+msgid "Long-term liabilities"
+msgstr "Dlouhodobé závazky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.563
+msgid "Foreign exchange losses"
+msgstr "Kursové ztráty"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.13
+msgid "Merchandise"
+msgstr "Zboží"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.131
+msgid "Cost of merchandise"
+msgstr "Pořízení zboží"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.031
+msgid "Land"
+msgstr "Pozemky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.391
+msgid "Allowance to receivables"
+msgstr "Opravná položka k pohledávkám"
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax1
+msgid "VAT 21.0%"
+msgstr "DPH 21,0%"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.646
+msgid "Revenue from written off receivables"
+msgstr "Výnosy z odepsaných pohledávek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.322
+msgid "Notes payable"
+msgstr " Směnky k úhradě"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.76
+#: model:account.account.template,name:l10n_cs.760
+msgid "Receivables"
+msgstr "Pohledávky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.38
+msgid "Transitory asset and liability accounts"
+msgstr "Přechodné účty aktiv a pasiv"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.3
+msgid "Clearing relationships"
+msgstr "ZÚČTOVACÍ VZTAHY"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_due_standard
+msgid "Tax base on output (standard)"
+msgstr "Základ daně na výstupu (základní sazba)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.042
+msgid "Acquisition of tangible long-lived assets"
+msgstr "Pořízení dlouhodobého hmotného majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.422
+msgid "Non-distributable reserve"
+msgstr "Nedělitelný fond"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.22
+#: model:account.account.template,name:l10n_cs.221
+msgid "Cash in bank"
+msgstr "Účty v bankách"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.666
+msgid "Revenue from short-term financial assets"
+msgstr "Výnosy z krátkodobého finančního majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.385
+msgid "Accrued revenue"
+msgstr "Příjmy příštích období"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.521
+msgid "Wages and salaries"
+msgstr "Mzdové náklady"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.253
+msgid "Registered debt securities held for trading"
+msgstr " Registrované dluhové cenné papíry k obchodování"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.241
+msgid "Issued short-term bonds"
+msgstr "Emitované krátkodobé dluhopisy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.62
+msgid "Activation"
+msgstr "Aktivace"
+
+#. module: l10n_cs
+#: view:res.partner:0
+msgid "e.g. 2862 9400"
+msgstr "např. 2862 9400"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.545
+msgid "Other fines and penalties"
+msgstr "Ostatní pokuty a penále"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.261
+msgid "Cash in transit"
+msgstr "Peníze na cestě"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.211
+msgid "Petty cash"
+msgstr "Pokladna"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.69
+msgid "Transfer accounts"
+msgstr " Převodové účty"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.34
+msgid "Clearing of taxes and subsidies"
+msgstr "Zúčtování daní a dotací"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.601
+msgid "Product revenue"
+msgstr "Tržby za vlastní výrobky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.065
+msgid "Debt securities held to maturity"
+msgstr "Dluhové cenné papíry držené do splatnosti"
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax2
+msgid "VAT 15.0%"
+msgstr "DPH 15,0%"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.026
+msgid "Livestock"
+msgstr "Dospělá zvířata a jejich skupiny"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_receivable_net_standard
+msgid "Tax base on input (standard)"
+msgstr "Základ daně na vstupu (základní sazba)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.478
+msgid "Long-term notes payable"
+msgstr "Dlouhodobé směnky k úhradě"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.4
+msgid "Equity and long-term liabilities"
+msgstr "KAPITÁLOVÉ ÚČTY A DLOUHODOBÉ ZÁVAZKY"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.557
+msgid "Clearing of allowance to revaluation differences on acquired assets"
+msgstr "Zúčtování oprávky k oceňovacímu rozdílu k nabytému majetku  "
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_due_tva_standard
+msgid "Payable tax (standard)"
+msgstr "Splatná daň (základní sazba)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.688
+msgid "Other extraordinary revenue"
+msgstr "Ostatní mimořádné výnosy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.48
+msgid "Deferred payable and receivable"
+msgstr "Odložený daňový závazek a pohledávka"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.092
+msgid "Allowance on tangible long-lived assets"
+msgstr "Opravná položka k dlouhodobému hmotnému majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.384
+msgid "Unearned and deferred revenue"
+msgstr "Výnosy příštích období"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.19
+msgid "Allowances on inventory"
+msgstr "Opravné položky k zásobám"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.59
+msgid "Income taxes, transfer accounts and provision for income taxes"
+msgstr "Daně z příjmů, převodové účty a rezerva na daň z příjmů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.524
+msgid "Legal social security insurance"
+msgstr " Zákonné sociální pojištění "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.014
+msgid "Goodwill"
+msgstr "Goodwill"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.611
+msgid "Change in work in progress"
+msgstr "Změna stavu nedokončené výroby"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.598
+msgid "Transfer of financial expenses"
+msgstr "Převod finančních nákladů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.139
+msgid "Merchandise in transit"
+msgstr "Zboží na cestě"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.153
+msgid "Advance payments for merchandise"
+msgstr "Poskytnuté zálohy na zboží"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.574
+msgid "Creation and clearing of financial provisions"
+msgstr "Tvorba a zúčtování finančních rezerv"
+
+#. module: l10n_cs
+#: field:res.partner,company_registry:0
+msgid "Company Registry"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.412
+msgid "Share premium"
+msgstr "Emisní ážio"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.668
+msgid "Other financial revenue"
+msgstr "Ostatní finanční výnosy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.614
+msgid "Change in animals"
+msgstr "Změna stavu zvířat"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.532
+msgid "Land value tax"
+msgstr "Daň z nemovitostí"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.041
+msgid "Acquisition of intangible assets"
+msgstr "Pořízení dlouhodobého nehmotného majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.022
+msgid "Fixtures, fittings, plant and machinery"
+msgstr "Samostatné movité věci a soubory movitých věcí "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.343
+msgid "Value added tax"
+msgstr "Daň z přidané hodnoty"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.523
+msgid "Compensation of organ members of company and cooperative"
+msgstr "Odměny členům orgánů společnosti a družstva"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.701
+msgid "Opening balance sheet account"
+msgstr "Počáteční účet rozvažný"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.428
+msgid "Retained earnings prior years"
+msgstr "Nerozdělený zisk minulých let"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.086
+msgid "Accumulated depreciation of livestock"
+msgstr "Accumulated depreciation of adult animals and their groups"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.067
+msgid "Other loans"
+msgstr "Ostatní půjčky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.54
+#: model:account.account.template,name:l10n_cs.548
+msgid "Other operating expenses"
+msgstr "Jiné provozní náklady"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.199
+msgid " Allowances on advance payments on animals"
+msgstr "Opravná položka k zálohám na zvířata "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.398
+msgid "Connecting account for partnering"
+msgstr "Spojovací účet při sdružení"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.518
+msgid "Other services"
+msgstr "Ostatní služby"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.382
+msgid "Complex prepaid expenses"
+msgstr "Komplexní náklady příštích období"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.697
+msgid "Transfer of operating revenue"
+msgstr "Převod provozních výnosů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.29
+msgid "Allowances on short-term financial assets"
+msgstr "Opravné položky ke krátkodobému finančnímu majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.093
+msgid "Allowance on Long-term incomplete intangible assets"
+msgstr "Opravná položka k dlouhodobému nedokončenému nehmotnému majetku"
+
+#. module: l10n_cs
+#: model:account.chart.template,name:l10n_cs.l10n_cs_account_chart_template_entrepreneurs
+msgid "Czech Chart of Accounts for Entrepreneurs"
+msgstr "Česká účtová osnova pro podnikatele"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.362
+msgid "Liabilities - significant influence"
+msgstr "Závazky - podstatný vliv"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.49
+msgid "Individual owner"
+msgstr "Individuální podnikatel"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.195
+msgid "Allowances on animals"
+msgstr "Opravná položka ke zvířatům "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.419
+msgid "Changes in legal capital"
+msgstr "Změny základního kapitálu"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.256
+msgid "Short-term debt securities held to maturity"
+msgstr ""
+"Dluhové cenné papíry se splatností do jednoho roku držené do splatnosti"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.60
+msgid "Revenues from own activity and merchadise"
+msgstr "Tržby za vlastní výkony a zboží"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.7
+msgid "Closing and sub - balance sheet accounts"
+msgstr "ZÁVĚRKOVÉ A PODROZVAHOVÉ ÚČTY"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.475
+msgid "Long-term advance payments received"
+msgstr "Dlouhodobé přijaté zálohy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.26
+msgid "Transfers between financial accounts"
+msgstr "Převody mezi finančními účty"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.559
+msgid "Creation and clearing of allowances in operating activities"
+msgstr "Tvorba a zúčtování opravných položek v provozní činnosti "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.074
+msgid " Accumulated amortization of valuable rights"
+msgstr "Oprávky k ocenitelným právům"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.251
+msgid "Registered equity securities held for trading"
+msgstr "Registrované majetkové cenné papíry k obchodování "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.50
+msgid "Consumed purchases"
+msgstr "Spotřebované nákupy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.341
+msgid "Income tax"
+msgstr "Daň z příjmů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.66
+msgid "Financial revenue"
+msgstr "Finanční výnosy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.61
+msgid "Changes in self manufactured inventory"
+msgstr "Změny stavu zásob vlastní činnosti"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.596
+msgid "Transfer of profit to partners"
+msgstr "Převod podílu na výsledku hospodaření společníkům"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.311
+msgid "Accounts receivable"
+msgstr "Pohledávky z obchodních vztahů  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.667
+msgid "Revenue from derivative operations"
+msgstr "Výnosy z derivátových operací"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.555
+msgid "Creation and clearing of complex pre-paid expenses"
+msgstr "Tvorba a zúčtování komplexních nákladů příštích období  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.029
+msgid "Other tangible fixed assets"
+msgstr "Jiný dlouhodobý hmotný majetek "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.351
+msgid "Receivables - controlling and managing person"
+msgstr "Pohledávky - ovládající a řídící osoba  "
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax3
+msgid "VAT 0.0%"
+msgstr "DPH 0,0%"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.589
+msgid " Creation and clearing of allowances on exceptional items"
+msgstr "Tvorba a zúčtování opravných položek v mimořádné činnosti"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.336
+msgid "Clearing with social security and health insurance"
+msgstr "Zúčtování s institucemi sociálního zabezpečení a zdravotního pojištění"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.389
+msgid "Estimated passive amounts"
+msgstr "Dohadné účty pasivní"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.079
+msgid "Accumulated amortization of other intangible assets"
+msgstr "Oprávky k jinému dlouhodobému nehmotnému majetku "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.151
+msgid "Advance payments on material"
+msgstr "Poskytnuté zálohy na materiál"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.249
+msgid "Other short-term financial assistance"
+msgstr "Ostatní krátkodobé finanční výpomoci"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.346
+msgid "Subsidies from government budget"
+msgstr "Dotace ze státního rozpočtu"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.198
+msgid "Allowances on advance payments on merchandise"
+msgstr "Opravná položka k zálohám na zboží "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.51
+msgid "Services"
+msgstr "Služby"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.417
+msgid "Differences from company transformations"
+msgstr "Rozdíly z přeměn společností "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.591
+msgid "Income tax on ordinary activities - due"
+msgstr " Daň z příjmů z běžné činnosti - splatná"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.75
+#: model:account.account.template,name:l10n_cs.750
+msgid "Assets"
+msgstr "Majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.551
+msgid ""
+"Depreciation and amortization of long-term tangible and intangible assets"
+msgstr "Odpisy dlouhodobého nehmotného a hmotného majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.213
+msgid "Liquid valuables"
+msgstr "Ceniny"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.123
+msgid "Products"
+msgstr "Výrobky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.55
+msgid ""
+"Depreciation, provisions, complex pre-paid expenses and allowances in "
+"operating area"
+msgstr ""
+"Odpisy, rezervy, komplexní náklady příštích období a opravné položky v "
+"provozní oblasti"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.531
+msgid "Road tax"
+msgstr "Silniční daň"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.011
+msgid "Set-up costs"
+msgstr "Zřizovací výdaje"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.595
+msgid "Additional income tax payments"
+msgstr "Dodatečné odvody daně z příjmů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.549
+msgid "Shrinkage (spoilage) from operating activities"
+msgstr "Manka a škody z provozní činnosti"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.12
+msgid "Self manufactured inventories"
+msgstr "Zásoby vlastní výroby"
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax4
+msgid "VAT on input 21%"
+msgstr "DPH na vstupu 21,0%"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.032
+msgid "Works of art and collections"
+msgstr " Umělecká díla a sbírky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.780
+msgid "Technical accounts"
+msgstr "Technické účty"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_payable_exempt
+msgid "Tax on input (exempt)"
+msgstr "Daň na vstupu (nulová sazba)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.02
+msgid "Long-lived tangible assets depreciated"
+msgstr "Dlouhodobý hmotný majetek odpisovaný"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.511
+msgid "Repairs and maintenance"
+msgstr "Opravy a udržování"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.1
+msgid "Inventory"
+msgstr "ZÁSOBY"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.68
+msgid "Extraordinary revenue"
+msgstr "Mimořádné výnosy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.095
+msgid "Allowance on advance payments given on long-lived assets"
+msgstr "Opravná položka k poskytnutým zálohám na dlouhodobý majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.021
+msgid "Buildings"
+msgstr "Stavby"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.597
+msgid "Transfer of operating expenses"
+msgstr "Převod provozních nákladů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.01
+#: model:account.account.template,name:l10n_cs.010
+msgid "Long-lived intangible assets"
+msgstr "Dlouhodobý nehmotný majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.368
+msgid "Payable to group companies"
+msgstr "Závazky k účastníkům sdružení"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.063
+msgid "Other financial assets and shares"
+msgstr "Ostatní cenné papíry a podíly"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.513
+msgid "Entertainment expenses"
+msgstr "Náklady na reprezentaci"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.313
+msgid "Receivables on discounted securities"
+msgstr "Pohledávky za eskontované cenné papíry"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.702
+msgid "Closing balance sheet account"
+msgstr "Konečný účet rozvažný"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_payable_standard
+msgid "Tax on input (standard)"
+msgstr "Daň na vstupu (běžná)"
+
+#. module: l10n_cs
+#: model:account.tax.template,name:l10n_cs.tax6
+msgid "VAT on input 0%"
+msgstr "DPH na vstupu 0,0%"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.541
+msgid "Net book value of intangible and tangible assets sold"
+msgstr "Zůstatková cena prodaného dlouhodobého nehmotného a hmotného majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.082
+msgid ""
+"Accumulated depreciation of independently movable assets and groups of "
+"movable assets"
+msgstr "Oprávky k samostatným movitým věcem a souborům movitých věcí"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.367
+msgid "Payables from underwritten unpaid securities and deposits"
+msgstr "Závazky z upsaných nesplacených cenných papírů a vkladů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.354
+msgid "Receivable for equity holder related to payment of loss"
+msgstr "Pohledávky za společníky při úhradě ztráty"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.526
+msgid "Social security expense of individual owner"
+msgstr "Sociální náklady individuálního podnikatele"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_net_reduced
+msgid "Tax base (reduced)"
+msgstr "Dańový základ (snížená)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.345
+#: model:account.account.template,name:l10n_cs.538
+msgid "Other taxes and fees"
+msgstr "Ostatní daně a poplatky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.374
+msgid "Rent receivable"
+msgstr "Pohledávky z pronájmu"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.383
+msgid "Accrued expenses"
+msgstr "Výdaje příštích období"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.544
+msgid "Contractual penalties and late payment interest"
+msgstr "Smluvní pokuty a úroky z prodlení"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.073
+msgid "Accumulated amortization of software"
+msgstr "Oprávky k softwaru"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.512
+msgid "Travel"
+msgstr "Cestovné"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.472
+msgid "Long-term liabilities - significant influence"
+msgstr "Dlouhodobé závazky - podstatný vliv  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.066
+msgid ""
+"Loans and credit - managing and controlling persons, significant influence"
+msgstr "Půjčky a úvěry - ovládající a řídící osoba, podstatný vliv"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.474
+msgid "Rental liabilities"
+msgstr "Závazky z pronájmu"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.64
+#: model:account.account.template,name:l10n_cs.648
+msgid "Other operating revenue"
+msgstr "Ostatní provozní výnosy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.58
+msgid "Extraordinary expenses"
+msgstr " Mimořádné náklady"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.451
+msgid "Provisions as per special legislation"
+msgstr "Rezervy podle zvláštních právních předpisů  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.562
+#: model:account.account.template,name:l10n_cs.662
+msgid "Interests"
+msgstr "Úroky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.604
+msgid "Merchandise revenue"
+msgstr "Tržby za zboží"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.56
+msgid "Financial expenses"
+msgstr "Finanční náklady"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.46
+msgid "Long-term bank loans"
+msgstr "Dlouhodobé bankovní úvěry"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.191
+msgid "Allowances on material"
+msgstr "Opravná položka k materiálu"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.321
+msgid "Accounts payable"
+msgstr "Závazky z obchodních vztahů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.352
+msgid "Receivables - significant influence"
+msgstr "Pohledávky - podstatný vliv "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.569
+msgid "Shrinkage (spoilage) of financial assets"
+msgstr "Manka a škody na finančním majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.501
+msgid "Material consumed"
+msgstr "Spotřeba materiálu"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.593
+msgid "Income tax on extraordinary income - due"
+msgstr "Daň z příjmů z mimořádné činnosti - splatná"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.097
+msgid "Revaluation of acquired assets"
+msgstr "Oceňovací rozdíl k nabytému majetku "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.03
+msgid "Long-lived tangible assets non-depreciated"
+msgstr "Dlouhodobý hmotný majetek neodpisovaný"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.342
+msgid "Other direct taxes"
+msgstr "Ostatní přímé daně"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.013
+msgid "Software"
+msgstr "Software"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.431
+msgid "Net income in process of approval"
+msgstr "Výsledek hospodaření ve schvalovacím řízení"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.411
+msgid "Legal (statutory) capital"
+msgstr "Základní kapitál"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.612
+msgid "Change in semi-finished goods"
+msgstr "Změna stavu polotovarů vlastní výroby"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.502
+msgid "Energy consumed"
+msgstr "Spotřeba energie"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.324
+msgid "Advance payments received"
+msgstr "Přijaté provozní zálohy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.365
+msgid "Other payables to partners and cooperative members"
+msgstr "Ostatní závazky ke společníkům a členům družstva"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.542
+msgid "Material sold"
+msgstr " Prodaný materiál"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.665
+msgid "Revenue from financial assets"
+msgstr "Výnosy z dlouhodobého finančního majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.621
+msgid "Activation of materials and merchandise"
+msgstr "Aktivace materiálu a zboží"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.06
+msgid "Long-term financial assets"
+msgstr "Dlouhodobý finanční majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.23
+#: model:account.account.template,name:l10n_cs.231
+msgid "Short-term bank loans"
+msgstr "Krátkodobé bankovní úvěry"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.197
+msgid "Allowances on advance payments on material"
+msgstr "Opravná položka k zálohám na materiál "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.072
+msgid "Accumulated amortization of intangible research and development results"
+msgstr "Oprávky k nehmotným výsledkům výzkumu a vývoje"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.567
+msgid "Expenses on derivative transactions"
+msgstr "Náklady z derivátových operací"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.061
+msgid "Financial assets and shares in subsidiaries"
+msgstr "Podíly v ovládaných a řízených osobách "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.112
+msgid "Materials in inventory"
+msgstr "Materiál na skladě"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.78
+msgid "Financial instruments"
+msgstr "Finanční nástroje"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.255
+msgid "Own bonds"
+msgstr "Vlastní dluhopisy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.481
+msgid "Deferred tax payable and receivable"
+msgstr " Odložený daňový závazek a pohledávka"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.418
+msgid "Revaluation differences from company transformations"
+msgstr "Oceňovací rozdíly z přecenění při přeměnách společností "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.528
+msgid "Other social security expense"
+msgstr "Ostatní sociální náklady"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.111
+msgid "Cost of material"
+msgstr "Pořízení materiálu"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.192
+msgid "Allowances on work in process"
+msgstr "Opravná položka k nedokončené výrobě"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.661
+msgid "Revenues from sales of securities and shares"
+msgstr "Tržby z prodeje cenných papírů a podílů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.043
+msgid "Acquisition of financial assets"
+msgstr "Pořízení dlouhodobého finančního majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.364
+msgid "Payables to equity holders in profit distribution"
+msgstr "Závazky ke společníkům při rozdělování zisku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.37
+msgid "Other receivables and payables"
+msgstr "Jiné pohledávky a závazky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.566
+msgid "Expenses on financial assets"
+msgstr "Náklady z finančního majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.503
+msgid "Other utilities consumed"
+msgstr "Spotřeba ostatních neskladovatelných dodávek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.471
+msgid " Long-term liabilities - controlling person"
+msgstr "Dlouhodobé závazky - ovládající a řídící osoba "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.051
+msgid "Advance payments for long-lived intangible assets"
+msgstr "Poskytnuté zálohy na dlouhodobý nehmotný majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.361
+msgid "Liabilities - controlling and managing person"
+msgstr "Závazky - ovládající a řídící osoba  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.09
+msgid "Allowances on long-lived assets"
+msgstr "Opravné položky k dlouhodobému majetku"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_receivable_net_exempt
+msgid "Tax base on input (exempth)"
+msgstr "Základ daně na vstupu (nulová sazba)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.025
+msgid "Perennial crops"
+msgstr "Pěstitelské celky trvalých porostů"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_due_reduced
+msgid "Tax base on output (reduced)"
+msgstr "Základ daně na výstupu (snížená)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.623
+msgid "Activation of intangible assets"
+msgstr "Aktivace dlouhodobého nehmotného majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.291
+msgid "Allowance for short-term financial assets"
+msgstr "Opravné položky ke krátkodobému finančnímu majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.2
+msgid "Cash, cash equivalents and short-term bank loans"
+msgstr "KRÁTKODOBÝ FINANČNÍ MAJETEK A KRÁTKODOBÉ BANKOVNÍ ÚVĚRY"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.31
+msgid "Short and long-term accounts receivable"
+msgstr "Pohledávky (krátkodobé i dlouhodobé)"
+
+#. module: l10n_cs
+#: model:account.fiscal.position.template,name:l10n_cs.fiscal_position_template_2
+msgid "Customers inside European Union"
+msgstr "Zákazníci v Evropské Unii"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.395
+msgid "Internal netting"
+msgstr "Vnitřní zúčtování"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.098
+msgid "Allowance on revaluation of acquired assets"
+msgstr "Oprávky k oceňovacímu rozdílu k nabytému majetku "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.522
+msgid "Partner and cooperative member employment compensation"
+msgstr "Příjmy společníků a členů družstva ze závislé činnosti"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.77
+#: model:account.account.template,name:l10n_cs.770
+msgid "Payables"
+msgstr "Závazky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.663
+msgid "Foreign exchange gains"
+msgstr "Kursové zisky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.698
+msgid "Transfer of financial revenue"
+msgstr "Převod finančních výnosů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.15
+msgid "Advance payments on inventory"
+msgstr "Poskytnuté zálohy na zásoby"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.491
+msgid "Individual owner account"
+msgstr "Účet individuálního podnikatele"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.04
+msgid ""
+"Intangible and tangible long-lived assets in progress and acquisition of "
+"Long-term financial assets"
+msgstr ""
+"Nedokončený dlouhodobý nehmotný a hmotný majetek a pořizovaný dlouhodobý "
+"finanční majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.552
+msgid "Creation and clearing of provisions under special legislation"
+msgstr "Tvorba a zúčtování rezerv podle zvláštních právních předpisů  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.081
+msgid "Accumulated depreciation of buildings"
+msgstr "Oprávky ke stavbám"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.355
+msgid "Other receivables from equity holders and cooperative members"
+msgstr "Ostatní pohledávky za společníky a členy družstva"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.062
+msgid "Financial assets and shares in associates"
+msgstr "Podíly v účetních jednotkách pod podstatným vlivem"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.52
+msgid "Personnel costs"
+msgstr "Osobní náklady"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.07
+msgid "Accumulated amortization on long-lived intangibles"
+msgstr "Oprávky k dlouhodobému nehmotnému majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.36
+msgid "Payables to partners, group entities and cooperative members"
+msgstr "Závazky ke společníkům, k účastníkům sdružení a ke členům družstva"
+
+#. module: l10n_cs
+#: model:account.tax.code.template,name:l10n_cs.vat_code_base_due_exempt
+msgid "Tax base on output (exempt)"
+msgstr "Základ daně na výstupu (nulová sazba)"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.376
+msgid "Purchased options"
+msgstr "Nakoupené opce"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.43
+msgid "Net income"
+msgstr "Výsledek hospodaření"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.39
+msgid "Allowances to clearing relationships and internal netting"
+msgstr " Opravná položka k zúčtovacím vztahům a vnitřní zúčtování"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.053
+msgid "Advance payments for long-lived financial assets"
+msgstr "Poskytnuté zálohy na dlouhodobý finanční majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.413
+msgid " Other capital reserves"
+msgstr "Ostatní kapitálové fondy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.05
+msgid "Advance payments for long-lived assets"
+msgstr "Poskytnuté zálohy na dlouhodobý majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.089
+msgid "Accumulated depreciation of other tangible assets"
+msgstr "Oprávky k jinému dlouhodobému hmotnému majetku  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.592
+msgid "Income tax on ordinary activities - deferred"
+msgstr " Daň z příjmů z běžné činnosti - odložená"
+
+#. module: l10n_cs
+#: model:account.account.type,name:l10n_cs.account_type_equity
+msgid "Vlastní jmění"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.6
+msgid "Revenue"
+msgstr "VÝNOSY"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.121
+msgid "Work in process"
+msgstr "Nedokončená výroba"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.196
+msgid "Allowances on merchandise"
+msgstr "Opravná položka ke zboží"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.25
+msgid ""
+"Short-term securities and shares, and short-term financial assets in progress"
+msgstr ""
+"Krátkodobé cenné papíry a podíly a pořizovaný krátkodobý finanční majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.423
+msgid "Statutory reserves"
+msgstr "Statutární fondy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.347
+msgid "Other subsidies"
+msgstr "Ostatní dotace"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.622
+msgid "Activation of internal services"
+msgstr "Aktivace vnitropodnikových služeb"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.312
+msgid "Notes receivable"
+msgstr "Směnky k inkasu"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.421
+msgid "Legal reserve"
+msgstr "Zákonný rezervní fond"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.459
+msgid "Other provisions"
+msgstr "Ostatní rezervy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.335
+msgid "Receivables from employees"
+msgstr "Pohledávky za zaměstnanci"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.41
+msgid "Legal (statutory) capital and capital reserves"
+msgstr "Základní kapitál a kapitálové fondy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.594
+msgid "Income tax on extraordinary income - deferred"
+msgstr "Daň z příjmů z mimořádné činnosti - odložená"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.70
+msgid "Balance sheet accounts"
+msgstr "Účty rozvažné"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.473
+msgid "Issued bonds"
+msgstr "Emitované dluhopisy"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.358
+msgid "Receivables from group companies"
+msgstr "Pohledávky za účastníky sdružení"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.624
+msgid "Activation of tangible assets"
+msgstr "Aktivace dlouhodobého hmotného majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.071
+msgid "Accumulated amortization of start-up costsm"
+msgstr "Oprávky ke zřizovacím výdajům"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.124
+msgid "Animals"
+msgstr "Zvířata"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.375
+msgid "Receivables on bonds issued"
+msgstr "Pohledávky z emitovaných dluhopisů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.588
+msgid "Other extraordinary expenses"
+msgstr "Ostatní mimořádné náklady"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.085
+msgid "Accumulated depreciation of orchards and vineyards"
+msgstr "Oprávky k pěstitelským celkům trvalých porostů"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.232
+msgid "Discounted loans"
+msgstr "Eskontní úvěry"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.119
+msgid "Material in transit"
+msgstr "Materiál na cestě"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.314
+msgid "Advance payments given"
+msgstr "Poskytnuté zálohy - dlouhodobé a krátkodobé "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.642
+msgid "Revenue from sale of material"
+msgstr "Tržby z prodeje materiálu"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.315
+#: model:account.account.template,name:l10n_cs.378
+msgid "Other receivables"
+msgstr "Ostatní pohledávky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.371
+msgid "Receivable from sale of business"
+msgstr "Pohledávky z prodeje podniku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.24
+msgid "Short-term financial assistance"
+msgstr "Krátkodobé finanční výpomoci"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.075
+msgid "Accumulated amortization of goodwill"
+msgstr "Oprávky ke goodwillu "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.681
+msgid "Revenue from change in method"
+msgstr "Výnosy ze změny metody"
+
+#. module: l10n_cs
+#: model:account.fiscal.position.template,name:l10n_cs.fiscal_position_template_1
+msgid "Customers in Czech Republic"
+msgstr "Zákazníci v Česrké Republice"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.052
+msgid "Advance payments for long-lived tangible assets"
+msgstr "Poskytnuté zálohy na dlouhodobý hmotný majetek"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.57
+msgid "Provisions and allowances for financing area"
+msgstr "Rezervy a opravné položky ve finanční oblasti"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.388
+msgid "Estimated active amounts"
+msgstr "Dohadné účty aktivní"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.259
+msgid "Acquisition of short-term financial assets"
+msgstr " Pořizování krátkodobého finančního majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.527
+msgid "Legal social security expense"
+msgstr "Zákonné sociální náklady"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.353
+msgid "Subscribed legal capital receivable"
+msgstr "Pohledávky za upsaný základní kapitál  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.152
+msgid "Advance payments on animals"
+msgstr "Poskytnuté zálohy na zvířata"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.091
+msgid "Allowance on intangible assets"
+msgstr "Opravná položka k dlouhodobému nehmotnému majetku"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.331
+msgid "Employees"
+msgstr "Zaměstnanci"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.21
+msgid "Cash"
+msgstr "Peníze"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.373
+msgid " Receivables and payables from long-lived-term operations"
+msgstr "Pohledávky a závazky z pevných termínových operací"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.379
+msgid "Other payables"
+msgstr "Jiné závazky"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.584
+msgid "Creation and clearing of extraordinary provisions"
+msgstr "Tvorba a zúčtování mimořádných rezerv  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.568
+msgid "Other financial expenses"
+msgstr " Ostatní finanční náklady"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.504
+msgid "Merchandise sold"
+msgstr "Prodané zboží"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.564
+msgid "Expenses on revaluation of securities"
+msgstr "Náklady z přecenění cenných papírů  "
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.5
+msgid "Expenses"
+msgstr "NÁKLADY"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.35
+msgid "Receivables from partners, group entities and cooperative members"
+msgstr "Pohledávky za společníky, za účastníky sdružení a za členy družstva"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.252
+msgid "Own shares and equity interests"
+msgstr "Vlastní akcie a vlastní obchodní podíly"
+
+#. module: l10n_cs
+#: model:ir.model,name:l10n_cs.model_res_partner
+msgid "Partner"
+msgstr ""
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.460
+msgid "Bank loans"
+msgstr "Bankovní úvěry"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.558
+msgid "Creation and clearing of legal allowances in operating activities"
+msgstr "Tvorba a zúčtování zákonných opravných položek v provozní činnosti"
+
+#. module: l10n_cs
+#: model:account.account.template,name:l10n_cs.333
+msgid "Other liabilities to employees"
+msgstr "Ostatní závazky vůči zaměstnancům"

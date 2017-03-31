@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<openerp>
+  <data>
+    <record id="account_type_profit_and_loss" model="account.account.type">
+      <field name="code">result</field>
+      <field name="name">Balance</field>
+      <field name="close_method">balance</field>
+    </record>
+  </data>    
+  
+</openerp>
