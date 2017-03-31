@@ -33,7 +33,7 @@ This is the latest Czech OpenERP localisation necessary to run OpenERP accountin
     'price': '100',
     'currency': 'EUR',
     'website': 'https://go.perlur.cloud/odoo-l10n-cs',
-    'depends': ['base_iban', 'base_vat', 'account_chart','l10n_multilang'],
+    'depends': ['base_iban', 'base_vat', 'l10n_multilang'],
     'data': [
         'partner_view.xml',
         'data/account_type.xml',
