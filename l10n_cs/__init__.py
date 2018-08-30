@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    Copyright (C) 2012 STOPKA Consulting s.r.o. (<https://www.stopkaconsulting.eu>).
+#    Copyright (C) 2018 PERLUR Group (<https://go.perlur.cloud/odoo-packages/>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,6 +18,8 @@
 #
 ##############################################################################
 
-import res_partner
+def _preserve_tag_on_taxes(cr, registry):
+    from odoo.addons.account.models.chart_template import preserve_existing_tags_on_taxes
+    preserve_existing_tags_on_taxes(cr, registry, 'l10n_cs')
 
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+import res_partner
