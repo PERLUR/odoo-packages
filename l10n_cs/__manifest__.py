@@ -45,7 +45,7 @@ This is the latest Czech Odoo (OpenERP) localisation necessary to run Odoo accou
         'wizard/l10n_cs_wizard.xml',
     ],
     'demo' : ['demo/demo.xml'],
-    "update_xml" : ['partner_view.xml'],
+    "update_xml" : ['views/partner_view.xml'],
     'installable': 'True',
     'images': ['images/config_chart_l10n_cs.jpeg','images/l10n_cs_chart.jpeg'],
 }
