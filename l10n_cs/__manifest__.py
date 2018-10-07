@@ -42,7 +42,7 @@ This is the latest Czech Odoo (OpenERP) localisation necessary to run Odoo accou
         'data/account_chart.xml',
         'data/account_tax.xml',
         'data/account_fiscal_templates.xml',
-        'l10n_cs_wizard.xml',
+        'wizard/l10n_cs_wizard.xml',
     ],
     'demo' : ['demo/demo.xml'],
     "update_xml" : ['partner_view.xml'],
