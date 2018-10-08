@@ -47,6 +47,6 @@ This is the latest Czech Odoo (OpenERP) localisation necessary to run Odoo accou
     'demo' : ['demo/demo.xml'],
     "update_xml" : ['views/partner_view.xml'],
     'installable': 'True',
-    'images': ['images/config_chart_l10n_cs.jpeg','images/l10n_cs_chart.jpeg'],
+    'images': ['static/description/icon.png'],
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
