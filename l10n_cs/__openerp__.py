@@ -32,7 +32,7 @@ This is the latest Czech OpenERP localisation necessary to run OpenERP accountin
     'author': 'PERLUR Group',
     'price': '100',
     'currency': 'EUR',
-    'website': 'https://go.perlur.cloud/odoo-l10n-cs',
+    'website': 'https://go.perlur.cloud/odoo-packages/',
     'depends': ['base_iban', 'base_vat', 'l10n_multilang'],
     'data': [
         'partner_view.xml',
@@ -47,6 +47,7 @@ This is the latest Czech OpenERP localisation necessary to run OpenERP accountin
     'demo' : ['demo/demo.xml'],
     "update_xml" : ['partner_view.xml'],
     'installable': 'True',
-    'images': ['images/config_chart_l10n_cs.jpeg','images/l10n_cs_chart.jpeg'],
+    'images': ['static/src/img/icon.png'],
+    'license': 'AGPL-3';
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
