@@ -17,5 +17,5 @@ You can support the project by buying the modules on [Odoo Marketplace](https://
 
 ### l10n_cs
 * [Odoo 10.0](https://www.odoo.com/apps/modules/10.0/l10n_cs/) | [GitHub Branch](https://github.com/PERLUR/odoo-packages/tree/10.0/l10n_cs)
-* Odoo 11.0 | Work in Progress | [GitHub Branch](https://github.com/PERLUR/odoo-packages/tree/11.0/l10n_cs)
+* [Odoo 11.0](https://apps.odoo.com/apps/modules/11.0/l10n_cs/) | Work in Progress | [GitHub Branch](https://github.com/PERLUR/odoo-packages/tree/11.0/l10n_cs)
 * Future versions | support development of future versions of this module on [PERLUR Patreon page](https://www.patreon.com/perlur)
