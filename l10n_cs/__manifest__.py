@@ -22,7 +22,7 @@
 {
     'name': 'Czech - Accounting',
     'version': '2.0',
-    'category': 'Localization/Account Charts',
+    'category': 'Accounting',
     'description': """
 This is the latest Czech Odoo (OpenERP) localisation necessary to run Odoo accounting for Czech businesses with:
 ============================================================================================================
