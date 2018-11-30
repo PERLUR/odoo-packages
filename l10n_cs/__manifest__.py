@@ -32,8 +32,8 @@ This is the latest Czech Odoo (OpenERP) localisation necessary to run Odoo accou
     'author': 'PERLUR Group and Optimal4',
     'price': '100',
     'currency': 'EUR',
-    'website': 'https://go.perlur.cloud/odoo-l10n-cs',
-    'depends': ['account', 'base_iban', 'base_vat', 'l10n_multilang'],
+    'website': 'https://go.perlur.cloud/odoo-packages/',
+    'depends': ['base_iban', 'base_vat', 'l10n_multilang'],
     'data': [
         'partner_view.xml',
         'data/account_type.xml',
@@ -48,5 +48,6 @@ This is the latest Czech Odoo (OpenERP) localisation necessary to run Odoo accou
     "update_xml" : ['views/partner_view.xml'],
     'installable': 'True',
     'images': ['static/description/icon.png'],
+    'license': 'AGPL-3',
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
