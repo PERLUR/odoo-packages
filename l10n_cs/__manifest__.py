@@ -22,14 +22,14 @@
 {
     'name': 'Czech - Accounting',
     'version': '2.0',
-    'category': 'Localization/Account Charts',
+    'category': 'Accounting',
     'description': """
-This is the latest Czech OpenERP localisation necessary to run OpenERP accounting for Czech businesses with:
+This is the latest Czech Odoo (OpenERP) localisation necessary to run Odoo accounting for Czech businesses with:
 ============================================================================================================
     - a Chart Of Accounts for Czech Republic
     - VAT tax structure with VATs for years 2010, 2011, 2012, 2013 and 2014
     - a few other adaptations""",
-    'author': 'PERLUR Group',
+    'author': 'PERLUR Group and Optimal4',
     'price': '100',
     'currency': 'EUR',
     'website': 'https://go.perlur.cloud/odoo-packages/',
@@ -42,10 +42,10 @@ This is the latest Czech OpenERP localisation necessary to run OpenERP accountin
         'data/account_chart.xml',
         'data/account_tax.xml',
         'data/account_fiscal_templates.xml',
-        'l10n_cs_wizard.xml',
+        'wizard/l10n_cs_wizard.xml',
     ],
     'demo' : ['demo/demo.xml'],
-    "update_xml" : ['partner_view.xml'],
+    "update_xml" : ['views/partner_view.xml'],
     'installable': 'True',
     'images': ['static/description/icon.png'],
     'license': 'AGPL-3',

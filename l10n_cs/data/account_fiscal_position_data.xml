@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+    
+        <!-- Fiscal Position Templates -->
+        
+        <record id="fiscal_position_template_1" model="account.fiscal.position.template">
+            <field name="name">Customers in Czech Republic</field>
+            <field name="chart_template_id" ref="cz_chart_template"/>
+        </record>
+        
+        <record id="fiscal_position_template_2" model="account.fiscal.position.template">
+            <field name="name">Customers inside European Union</field>
+            <field name="chart_template_id" ref="cz_chart_template"/>
+        </record>
+
+        <record id="fiscal_position_template_3" model="account.fiscal.position.template">
+            <field name="name">Customers outside European Union</field>
+            <field name="chart_template_id" ref="cz_chart_template"/>
+        </record>
+    
+    <!-- Fiscal Position Tax Templates -->
+
+        <!-- European Union -->
+        <!-- Sales -->
+
+        <record id="fiscal_position_tax_template_1" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fiscal_position_template_2"  />
+            <field name="tax_src_id" ref="vs_cz_21" />
+            <field name="tax_dest_id" ref="vs_eu_product0" />
+        </record>
+
+        <record id="fiscal_position_tax_template_2" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fiscal_position_template_2"  />
+            <field name="tax_src_id" ref="vs_cz_15" />
+            <field name="tax_dest_id" ref="vs_eu_product0" />
+        </record>
+
+        <record id="fiscal_position_tax_template_3" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fiscal_position_template_2"  />
+            <field name="tax_src_id" ref="vs_cz_10" />
+            <field name="tax_dest_id" ref="vs_eu_product0" />
+        </record>
+
+        <!-- European Union -->
+        <!-- Purchase -->
+
+        <record id="fiscal_position_tax_template_11" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fiscal_position_template_2"  />
+            <field name="tax_src_id" ref="vp_cz_21" />
+            <field name="tax_dest_id" ref="vp_eu_product21" />
+        </record>
+
+        <record id="fiscal_position_tax_template_12" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fiscal_position_template_2"  />
+            <field name="tax_src_id" ref="vp_cz_15" />
+            <field name="tax_dest_id" ref="vp_eu_product15" />
+        </record>
+
+        <record id="fiscal_position_tax_template_13" model="account.fiscal.position.tax.template">
+            <field name="position_id" ref="fiscal_position_template_2"  />
+            <field name="tax_src_id" ref="vp_cz_10" />
+            <field name="tax_dest_id" ref="vp_eu_product10" />
+        </record>
+
+    </data>
+</odoo>
