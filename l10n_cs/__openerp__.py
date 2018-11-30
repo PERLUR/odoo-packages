@@ -48,5 +48,6 @@ This is the latest Czech OpenERP localisation necessary to run OpenERP accountin
     "update_xml" : ['partner_view.xml'],
     'installable': 'True',
     'images': ['static/src/img/icon.png'],
+    'license': 'AGPL-3';
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
