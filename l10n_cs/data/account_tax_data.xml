@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+
+    <!-- Account Tags -->
+
+    <record id="tag_cz_01" model="account.account.tag">
+      <field name="name">Sale domestic basic vat</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_02" model="account.account.tag">
+      <field name="name">Sale domestic low1 vat</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_03" model="account.account.tag">
+      <field name="name">Sale domestic low2 vat</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_04" model="account.account.tag">
+      <field name="name">Sale domestic vat free</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_05" model="account.account.tag">
+      <field name="name">Podstawa - Dostawa towarów/usług, kraj, 0%</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_06" model="account.account.tag">
+      <field name="name">Podstawa - W tym towary art 129</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_07" model="account.account.tag">
+      <field name="name">Podstawa - Dostawa towarów/usług, kraj, 3% lub 5%</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_08" model="account.account.tag">
+      <field name="name">Podstawa - Dostawa towarów/usług, kraj, 7% lub 8%</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_09" model="account.account.tag">
+      <field name="name">Podstawa - Dostawa towarów/usług, kraj, 22% lub 23%</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_10" model="account.account.tag">
+      <field name="name">Podstawa - Wew-wspól dostawa towarów</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_11" model="account.account.tag">
+      <field name="name">Podstawa - Eksport towarów</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_12" model="account.account.tag">
+      <field name="name">Podstawa - Wewn-wspól. nabycie towarów</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_13" model="account.account.tag">
+      <field name="name">Podstawa - Import towarów art. 33a</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_14" model="account.account.tag">
+      <field name="name">Podstawa - Import usług</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_15" model="account.account.tag">
+      <field name="name">Podstawa - W tym nabycie wg art 28b</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_16" model="account.account.tag">
+      <field name="name">Podstawa - Dostawa towarów, podatnik nabywca</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_17" model="account.account.tag">
+      <field name="name">Podstawa - Dostawa towarów, podatnik nabywca bis</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_18" model="account.account.tag">
+      <field name="name">Podstawa - Razem D</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_19" model="account.account.tag">
+      <field name="name">Podstawa - Nabycie towarów i usług ś.trwałe</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_20" model="account.account.tag">
+      <field name="name">Podstawa - Nabycie towarów i usług pozostałych</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_21" model="account.account.tag">
+      <field name="name">Podstawa - Nabycie towarów i usług pozostałych bis</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_22" model="account.account.tag">
+      <field name="name">Podatek - Do przeniesienia</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_23" model="account.account.tag">
+      <field name="name">Podatek - Nadwyżka naliczonego nad należnym</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_24" model="account.account.tag">
+      <field name="name">Podatek - Do wpłaty do US</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_25" model="account.account.tag">
+      <field name="name">Podatek - Wydatek na kasy rejestrujące</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_26" model="account.account.tag">
+      <field name="name">Podatek - Objęty zaniechaniem poboru</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_27" model="account.account.tag">
+      <field name="name">Podatek - Razem C</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_28" model="account.account.tag">
+      <field name="name">Podatek - Dostawa towarów/usług, kraj, 3% lub 5%</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_29" model="account.account.tag">
+      <field name="name">Podatek - Dostawa towarów/usług, kraj, 7% lub 8%</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_30" model="account.account.tag">
+      <field name="name">Podatek - Dostawa towarów/usług, kraj, 22% lub 23%</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_31" model="account.account.tag">
+      <field name="name">Podatek - Wewn-wspól. nabycie towarów</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_32" model="account.account.tag">
+      <field name="name">Podatek - Import towarów art. 33a</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_33" model="account.account.tag">
+      <field name="name">Podatek - Import usług</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_34" model="account.account.tag">
+      <field name="name">Podatek - W tym nabycie wg art 28b</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_35" model="account.account.tag">
+      <field name="name">Podatek - Dostawa towarów, podatnik nabywca</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_36" model="account.account.tag">
+      <field name="name">Podatek - Ze spisu z natury art 14.5</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_37" model="account.account.tag">
+      <field name="name">Podatek - Wew.wspól. nabycie środk. transp. termin</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_38" model="account.account.tag">
+      <field name="name">Podatek - Razem D</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_39" model="account.account.tag">
+      <field name="name">Podatek - Nadwyżka z poprzedniej deklaracji</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_40" model="account.account.tag">
+      <field name="name">Podatek - Naliczony ze spisu z natury, art.113</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_41" model="account.account.tag">
+      <field name="name">Podatek - Nabycie towarów i usług ś.trwałe</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_42" model="account.account.tag">
+      <field name="name">Podatek - Nabycie towarów i usług pozostałych</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_43" model="account.account.tag">
+      <field name="name">Podatek - Nabycie towarów i usług pozostałych bis</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_44" model="account.account.tag">
+      <field name="name">Podatek - Korekta naliczonego od nabycia ś.trwałych</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_45" model="account.account.tag">
+      <field name="name">Podatek - Korekta naliczonego od pozostałych nabyć</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_46" model="account.account.tag">
+      <field name="name">Podatek - Wydatek na kasy do zwrotu w tym okresie</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_47" model="account.account.tag">
+      <field name="name">Podatek - Do zwrotu</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_48" model="account.account.tag">
+      <field name="name">Podatek - Do zwrotu 25 dni</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_49" model="account.account.tag">
+      <field name="name">Podatek - Do zwrotu 60 dni</field>
+      <field name="applicability">taxes</field>
+    </record>
+    <record id="tag_cz_50" model="account.account.tag">
+      <field name="name">Podatek - Do zwrotu 180 dni</field>
+      <field name="applicability">taxes</field>
+    </record>
+
+    # VAT domestic sale products
+
+    <record id="vs_cz_21" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">VAT-21%</field>
+      <field name="description">SP21</field>
+      <field name="amount">21</field>
+      <field name="amount_type">percent</field>
+      <field name="type_tax_use">sale</field>
+      <field name="refund_account_id" ref="chart343101"/>
+      <field name="account_id" ref="chart343101"/>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_01')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_21"/>
+    </record>
+
+    <record id="vs_cz_15" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">VAT-15%</field>
+      <field name="description">SP15</field>
+      <field name="amount">15</field>
+      <field name="amount_type">percent</field>
+      <field name="type_tax_use">sale</field>
+      <field name="refund_account_id" ref="chart343102"/>
+      <field name="account_id" ref="chart343102"/>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_02')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_15"/>
+    </record>
+
+    <record id="vs_cz_10" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">VAT-10%</field>
+      <field name="description">SP10</field>
+      <field name="amount">10</field>
+      <field name="amount_type">percent</field>
+      <field name="type_tax_use">sale</field>
+      <field name="refund_account_id" ref="chart343104"/>
+      <field name="account_id" ref="chart343104"/>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_03')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_10"/>
+    </record>
+
+    <record id="vs_cz_0" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">VAT-0%</field>
+      <field name="description">SP0</field>
+      <field name="amount">0</field>
+      <field name="amount_type">percent</field>
+      <field name="type_tax_use">sale</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_04')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+    </record>
+
+
+    # VAT domestic purchase
+
+    <record id="vp_cz_21" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">VAT-21%</field>
+      <field name="description">PP21</field>
+      <field name="amount">21</field>
+      <field name="amount_type">percent</field>
+      <field name="sequence" eval="0"/>
+      <field name="type_tax_use">purchase</field>
+      <field name="refund_account_id" ref="chart343201"/>
+      <field name="account_id" ref="chart343201"/>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_42')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_21"/>
+    </record>
+
+     <record id="vp_cz_15" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">VAT-15%</field>
+      <field name="description">PP15</field>
+      <field name="amount">15</field>
+      <field name="amount_type">percent</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="refund_account_id" ref="chart343202"/>
+      <field name="account_id" ref="chart343202"/>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_42'), ref('l10n_cs.tag_cz_20')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_15"/>
+    </record>
+
+    <record id="vp_cz_10" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">VAT-10%</field>
+      <field name="description">PP10</field>
+      <field name="amount">10</field>
+      <field name="amount_type">percent</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="refund_account_id" ref="chart343204"/>
+      <field name="account_id" ref="chart343204"/>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_42'), ref('l10n_cs.tag_cz_20')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_10"/>
+    </record>
+
+    <record id="vp_cz_0" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">VAT-0%</field>
+      <field name="description">PP0</field>
+      <field name="amount">0</field>
+      <field name="refund_account_id" ref="chart343242"/>
+      <field name="account_id" ref="chart343242"/>
+      <field name="amount_type">percent</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_42'), ref('l10n_cs.tag_cz_20')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+    </record>
+
+  # EU purchase
+
+    <record id="vp_eu_product21_in" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase product EU in</field>
+      <field name="description">PPEU211</field>
+      <field name="amount" eval="21"/>
+      <field name="sequence" eval="100"/>
+      <field name="amount_type">percent</field>
+      <field name="refund_account_id" ref="chart343211"/>
+      <field name="account_id" ref="chart343211"/>
+      <field name="type_tax_use">none</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_42')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+    <record id="vp_eu_product21_out" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase product EU out</field>
+      <field name="description">PPEU212</field>
+      <field name="amount" eval="-21"/>
+      <field name="sequence" eval="100"/>
+      <field name="amount_type">percent</field>
+      <field name="refund_account_id" ref="chart343111"/>
+      <field name="account_id" ref="chart343111"/>
+      <field name="type_tax_use">none</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_31')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+    <record id="vp_eu_product21" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase product EU 21</field>
+      <field name="description">PPEU21</field>
+      <field name="amount">1.0</field>
+      <field name="amount_type">group</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="children_tax_ids" eval="[(6, 0, [ref('vp_eu_product21_in'), ref('vp_eu_product21_out')])]"/>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_20'), ref('l10n_cs.tag_cz_12')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+   <record id="vp_eu_product15_in" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase product EU 15 in</field>
+      <field name="description">PPEU151</field>
+      <field name="amount" eval="15"/>
+      <field name="sequence" eval="100"/>
+      <field name="amount_type">percent</field>
+      <field name="refund_account_id" ref="chart343212"/>
+      <field name="account_id" ref="chart343212"/>
+      <field name="type_tax_use">none</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_42')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+    <record id="vp_eu_product15_out" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase product EU 15 out</field>
+      <field name="description">PPEU152</field>
+      <field name="amount" eval="-15"/>
+      <field name="sequence" eval="100"/>
+      <field name="amount_type">percent</field>
+      <field name="refund_account_id" ref="chart343112"/>
+      <field name="account_id" ref="chart343112"/>
+      <field name="type_tax_use">none</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_31')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+    <record id="vp_eu_product15" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase product EU 15</field>
+      <field name="description">PPEU15</field>
+      <field name="amount">1.0</field>
+      <field name="amount_type">group</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="children_tax_ids" eval="[(6, 0, [ref('vp_eu_product15_in'), ref('vp_eu_product15_out')])]"/>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_20'), ref('l10n_cs.tag_cz_12')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+
+   <record id="vp_eu_product10_in" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase product EU 10 in</field>
+      <field name="description">PPEU101</field>
+      <field name="amount" eval="10"/>
+      <field name="sequence" eval="100"/>
+      <field name="amount_type">percent</field>
+      <field name="refund_account_id" ref="chart343214"/>
+      <field name="account_id" ref="chart343214"/>
+      <field name="type_tax_use">none</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_42')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+    <record id="vp_eu_product10_out" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase product EU 10 out</field>
+      <field name="description">PPEU102</field>
+      <field name="amount" eval="-10"/>
+      <field name="sequence" eval="100"/>
+      <field name="amount_type">percent</field>
+      <field name="refund_account_id" ref="chart343114"/>
+      <field name="account_id" ref="chart343114"/>
+      <field name="type_tax_use">none</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_31')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+    <record id="vp_eu_product10" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase product EU 10</field>
+      <field name="description">PPEU10</field>
+      <field name="amount">1.0</field>
+      <field name="amount_type">group</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="children_tax_ids" eval="[(6, 0, [ref('vp_eu_product10_in'), ref('vp_eu_product10_out')])]"/>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_20'), ref('l10n_cs.tag_cz_12')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+    </record>
+
+    <record id="vp_eu_service21_in" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase service EU in</field>
+      <field name="description">PSEU1</field>
+      <field name="amount" eval="21"/>
+      <field name="sequence" eval="100"/>
+      <field name="amount_type">percent</field>
+      <field name="refund_account_id" ref="chart343221"/>
+      <field name="account_id" ref="chart343221"/>
+      <field name="type_tax_use">none</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_42')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+    <record id="vp_eu_service21_out" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase service EU out</field>
+      <field name="description">PSEU2</field>
+      <field name="amount" eval="-21"/>
+      <field name="sequence" eval="100"/>
+      <field name="amount_type">percent</field>
+      <field name="refund_account_id" ref="chart343121"/>
+      <field name="account_id" ref="chart343121"/>
+      <field name="type_tax_use">none</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_31')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+    <record id="vp_eu_service21" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Purchase service EU</field>
+      <field name="description">PSEU</field>
+      <field name="amount">1.0</field>
+      <field name="amount_type">group</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="children_tax_ids" eval="[(6, 0, [ref('vp_eu_service21_in'), ref('vp_eu_service21_out')])]"/>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_20'), ref('l10n_cs.tag_cz_12')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+      </record>
+
+# EU sale
+
+    <record id="vs_eu_product0" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Sale product EU</field>
+      <field name="description">SPEU</field>
+      <field name="amount">0</field>
+      <field name="amount_type">percent</field>
+      <field name="refund_account_id" ref="chart343141"/>
+      <field name="account_id" ref="chart343141"/>
+      <field name="type_tax_use">sale</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_10')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+    </record>
+
+    <record id="vs_eu_service0" model="account.tax.template">
+      <field name="chart_template_id" ref="cz_chart_template"/>
+      <field name="name">Sale service EU</field>
+      <field name="description">SSEU</field>
+      <field name="amount">0</field>
+      <field name="amount_type">percent</field>
+      <field name="refund_account_id" ref="chart343142"/>
+      <field name="account_id" ref="chart343142"/>
+      <field name="type_tax_use">sale</field>
+      <field name="tag_ids" eval="[(6,0,[ref('l10n_cs.tag_cz_10')])]"/>
+                <field name="tax_group_id" ref="tax_group_vat_0"/>
+    </record>
+  
+  </data>
+</odoo>

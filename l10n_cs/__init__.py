@@ -1,7 +1,8 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    Copyright (C) 2012 STOPKA Consulting s.r.o. (<https://www.stopkaconsulting.eu>).
+#    Copyright (C) 2012 - 2018 PERLUR Group (<https://go.perlur.cloud/odoo-l10n-cs>).
+#    Copyright (C) 2018 Optimal 4 s.r.o. (<https://www.optimal4.cz>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,6 +19,4 @@
 #
 ##############################################################################
 
-import res_partner
-
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+from . import models
