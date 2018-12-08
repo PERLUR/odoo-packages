@@ -1,0 +1,37 @@
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="res_partner_ico_form_view">
+			<field name="name">res_partner_ico_form_view</field>
+			<field name="model">res.partner</field>
+			<field name="inherit_id" ref="base.view_partner_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='vat']" position="before">
+					<field name="ico"/>
+				</xpath>
+			</field>
+		</record>
+
+		<record model="ir.ui.view" id="account_invoice_date_zdpl_form_view">
+			<field name="name">account_invoice_date_zdpl_form_view</field>
+			<field name="inherit_id" ref="account.invoice_form"/>
+			<field name="model">account.invoice</field>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='date_invoice']" position="after">
+					<field name="date_zdpl"/>
+				</xpath>
+			</field>
+		</record>
+
+		<record model="ir.ui.view" id="res_company_ico_form_view">
+			<field name="name">res_company_ico_form_view</field>
+			<field name="model">res.company</field>
+			<field name="inherit_id" ref="base.view_company_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='vat']" position="before">
+					<field name="ico"/>
+				</xpath>
+			</field>
+		</record>
+
+	</data>
+</odoo>

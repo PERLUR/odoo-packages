@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="report_invoice_document_inherit_cz" inherit_id="account.report_invoice_document">
+		<xpath expr="//div[@class='page']/div[@class='row'][1]" position="replace">
+			<table width="100%">
+				<thead>
+					<tr>
+						<th><p style="color:DarkGrey">Vendor</p></th>
+						<th><p style="color:DarkGrey">Customer</p></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><address t-field="o.company_id.partner_id" t-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": True}' /></td>
+						<td><address t-field="o.partner_id" t-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": True}' /></td>
+					</tr>
+					<tr>
+						<td><span>IČ: <t t-esc="o.company_id.partner_id.ico"/>&amp;nbsp;</span><span t-if="o.company_id.partner_id.vat">DIČ: <t t-esc="o.company_id.partner_id.vat"/></span></td>
+						<td><span t-if="o.partner_id.ico">IČ: <t t-esc="o.partner_id.ico"/></span>&amp;nbsp;<span t-if="o.partner_id.vat">DIČ: <t t-esc="o.partner_id.vat"/></span></td>
+					</tr>
+				</tbody>
+			</table>
+			<div name="invoice_address"></div>
+		</xpath>
+		<xpath expr="//div[@class='row mt32 mb32']" position="before">
+			<div class="row mt32 mb32">
+				<div class="col-xs-6" t-if="o.company_id.partner_id.bank_ids">
+					<table>
+						<tr><td style="color:DarkGrey">Bank:&amp;nbsp;</td><td><span t-field="o.company_id.partner_id.bank_ids.bank_name"/></td></tr>
+						<tr><td style="color:DarkGrey">Bank account:&amp;nbsp;</td><td><span t-field="o.company_id.partner_id.bank_ids.acc_number"/></td></tr>
+						<tr><td style="color:DarkGrey">Variable code:&amp;nbsp;</td><td><t t-esc="o.number"/></td></tr>
+					</table>
+				</div>
+				<div class="col-xs-6">
+					<table>
+						<tr><td style="color:DarkGrey">Date:&amp;nbsp;</td><td><span t-field="o.date_invoice"/></td></tr>
+						<tr><td style="color:DarkGrey">Date VAT:&amp;nbsp;</td><td><span t-field="o.date_zdpl"/></td></tr>
+						<tr><td style="color:DarkGrey">Due date:&amp;nbsp;</td><td><span t-field="o.date_due"/></td></tr>
+					</table>
+				</div>
+			</div>
+			<div class="row mt32 mb32">
+				<div class="col-xs-2" t-if="o.name">
+					<strong>Description:</strong>
+					<p t-field="o.name"/>
+				</div>
+				<div class="col-xs-2" t-if="o.origin">
+					<strong>Source:</strong>
+					<p t-field="o.origin"/>
+				</div>
+				<div class="col-xs-2" t-if="o.partner_id.ref">
+					<strong>Customer Code:</strong>
+					<p t-field="o.partner_id.ref"/>
+				</div>
+				<div name="reference" class="col-xs-2" t-if="o.reference and o.type == 'in_invoice'">
+					<strong>Reference:</strong>
+					<p t-field="o.reference"/>
+				</div>
+			</div>
+		</xpath>
+		<xpath expr="//div[@class='row'][1]" position="replace">
+			<div id="total" class="row">
+				<!--<div class="col-xs-8 pull-right">-->
+				<div class="col-xs-8 pull-right">
+					<table class="table table-condensed">
+
+						<thead>
+ 							<tr class="border-black">
+								<th class="text-right"><strong>VAT %</strong></th>
+								<th class="text-right"><strong>VAT base</strong></th>
+								<th class="text-right"><strong>VAT currency</strong></th>
+								<th class="text-right"><strong>Total with VAT</strong></th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<t t-foreach="o.get_taxes_values().values()" t-as="tv">
+								<tr>
+									<td class="text-right"><span t-esc="tv['name']"/></td>
+									<td class="text-right">
+										<span t-esc="tv['base']" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+									</td>
+									<td class="text-right">
+										<span t-esc="tv['amount']" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+									</td>
+									<td class="text-right">
+										<span t-esc="tv['base']+tv['amount']" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+									</td>
+
+							</tr>
+							</t>
+							<t t-set="amount_untaxed" t-value="0"/>
+							<tr t-if="amount_untaxed">
+								<td class="text-right">0%</td>
+								<td class="text-right">
+									<span t-esc="amount_untaxed" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+								</td>
+								<td class="text-right">
+									<span t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}">0,00</span>
+								</td>
+								<td class="text-right">
+									<span t-esc="amount_untaxed" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+								</td>
+							</tr>
+
+						<tr id="last" class="border-black">
+							<td class="text-right"><strong>Total</strong></td>
+							<td class="text-right">
+								<strong><span t-field="o.amount_untaxed" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/></strong>
+							</td>
+							<td class="text-right">
+								<strong><span t-field="o.amount_tax" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/></strong>
+							</td>
+							<td class="text-right">
+								<strong><span t-field="o.amount_total" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/></strong>
+							</td>
+						</tr>
+
+					</tbody>
+				 </table>
+				</div>
+			</div>
+		</xpath>
+	</template>
+</odoo>
+

@@ -1,0 +1,10 @@
+		<record model="ir.ui.view" id="account_invoice_date_zdpl_form_view">
+			<field name="name">account_invoice_date_zdpl_form_view</field>
+			<field name="inherit_id" ref="account.invoice_form"/>
+			<field name="model">account.invoice</field>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='date_invoice']" position="after">
+					<field name="date_zdpl"/>
+				</xpath>
+			</field>
+		</record>
