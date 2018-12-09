@@ -1,7 +1,8 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    Copyright (C) 2012 - 2017 PERLUR Group (<https://go.perlur.cloud/odoo-l10n-cs>).
+#    Copyright (C) 2012 - 2018 PERLUR Group (<https://go.perlur.cloud/opensource>).
+#    Copyright (C) 2018 Optimal 4 s.r.o. (<https://www.optimal4.cz>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -21,19 +22,19 @@
 
 {
     'name': 'Czech - Accounting',
-    'version': '2.0',
+    'version': '2.1',
     'category': 'Accounting',
     'description': """
 This is the latest Czech Odoo (OpenERP) localisation necessary to run Odoo accounting for Czech businesses with:
 ============================================================================================================
     - a Chart Of Accounts for Czech Republic
-    - VAT tax structure with VATs for years 2010, 2011, 2012, 2013 and 2014
+    - VAT tax structure with VATs for years 2018
     - a few other adaptations""",
     'author': 'PERLUR Group and Optimal4',
     'price': '100',
     'currency': 'EUR',
     'website': 'https://go.perlur.cloud/odoo-packages/',
-    'depends': ['base_iban', 'base_vat', 'l10n_multilang'],
+    'depends': ['account', 'base_iban', 'base_vat', 'l10n_multilang', 'contacts'],
     'data': [
         'partner_view.xml',
         'data/account_type.xml',
