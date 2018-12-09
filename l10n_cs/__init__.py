@@ -1,7 +1,8 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    Copyright (C) 2018 PERLUR Group (<https://go.perlur.cloud/odoo-packages/>).
+#    Copyright (C) 2012 - 2018 PERLUR Group (<https://go.perlur.cloud/opensource>).
+#    Copyright (C) 2018 Optimal 4 s.r.o. (<https://www.optimal4.cz>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,8 +19,4 @@
 #
 ##############################################################################
 
-def _preserve_tag_on_taxes(cr, registry):
-    from odoo.addons.account.models.chart_template import preserve_existing_tags_on_taxes
-    preserve_existing_tags_on_taxes(cr, registry, 'l10n_cs')
-
-import res_partner
+from . import models
