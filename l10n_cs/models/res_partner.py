@@ -18,14 +18,11 @@
 #
 ##############################################################################
 
-from openerp.osv import fields, osv
+from odoo import models, fields, api
 
-class res_partner(osv.osv):
-    _name = 'res.partner'
-    _inherit = 'res.partner'
-
-    _columns = {
-        'company_registry': fields.char('Company Registry', size=64),
-    }
-
-res_partner()
+class ResPartner(models.Model):
+	_inherit = 'res.partner'
+	company_registry = fields.Char('Company Registry')
+		@api.model
+	def _company_registry(self):
+		return super(ResPartner, self)._company_registry() + ['company_registry']

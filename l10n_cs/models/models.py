@@ -1,7 +1,8 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    Copyright (C) 2012 STOPKA Consulting s.r.o. (<https://www.perlur.cz/en/it-solutions/business-applications/openerp-en/>).
+#    Copyright (C) 2012 - 2018 PERLUR Group (<https://go.perlur.cloud/opensource>).
+#    Copyright (C) 2018 Optimal 4 s.r.o. (<https://www.optimal4.cz>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,14 +19,5 @@
 #
 ##############################################################################
 
-from openerp.osv import fields, osv
-
-class res_partner(osv.osv):
-    _inherit = 'res.partner'
-
-    _columns = {
-        'company_registry': fields.char('Company Registry', size=64),
-    }
-
-res_partner()
-
+ from odoo import models, fields, api
+ 

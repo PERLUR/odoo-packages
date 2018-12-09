@@ -41,7 +41,7 @@ This is the latest Czech Odoo (OpenERP) localisation necessary to run Odoo accou
         'data/account_template_entrepreneurs.xml',
         'data/account_tax_code.xml',
         'data/account_chart.xml',
-        'data/account_tax.xml',
+        'data/account_tax_data.xml',
         'data/account_fiscal_templates.xml',
         'wizard/l10n_cs_wizard.xml',
     ],
